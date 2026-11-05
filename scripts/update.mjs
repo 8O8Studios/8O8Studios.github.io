@@ -13,6 +13,9 @@ const WORKED_WITH_IDS = [5948929, 7498332, 17192115, 11636314, 8108593];
 // The 8O8 Studios group: everyone with the "Partners" rank is shown in the Partners column.
 const STUDIO_GROUP_ID = 33198659;
 const PARTNER_ROLE_NAME = "Partner";
+// Ranks in the studio group shown in the Staff column (not case-sensitive). Add every staff rank name here,
+// e.g. ["Staff", "Moderator", "Developer"]. If a name doesn't exist the script prints the ranks that do.
+const STAFF_ROLE_NAMES = ["Staff"];
 const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 const PAGE_SIZE = 30;         // 30 per page is known to work with this endpoint
 const MAX_PAGES = 400;        // safety limit only (400 x 30 = 12,000 items per source)
@@ -87,30 +90,47 @@ async function addSource(list, { id, type, name, memberCount, hasVerifiedBadge }
   console.log(`${name}: ${latest.length} items${memberCount != null ? `, ${memberCount} members` : ""}`);
 }
 
-// Fetches every user holding the Partners rank in the studio group (+ their avatar headshots).
-async function fetchPartners() {
+// Fetches the people for the Partners + Staff columns from the studio group (+ their avatar headshots),
+// and the studio group's own member count.
+async function fetchPeople() {
   const info = await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}`);
-  console.log(`Partners source group: ${info.name} (${STUDIO_GROUP_ID})`);
+  console.log(`People source group: ${info.name} (${STUDIO_GROUP_ID})`);
   await sleep(1000);
   const roles = (await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}/roles`)).roles || [];
-  const role = roles.find((r) => r.name.trim().toLowerCase() === PARTNER_ROLE_NAME.toLowerCase());
-  if (!role) throw new Error(`No "${PARTNER_ROLE_NAME}" rank found. Ranks are: ${roles.map((r) => r.name).join(", ")}`);
   await sleep(1000);
+  const findRoles = (names) => roles.filter((r) => names.some((n) => n.toLowerCase() === r.name.trim().toLowerCase()));
+  const allRanks = roles.map((r) => r.name).join(", ");
 
-  const users = [];
-  let cursor = "";
-  do {
-    const c = cursor ? `&cursor=${cursor}` : "";
-    const json = await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}/roles/${role.id}/users?limit=100&sortOrder=Asc${c}`);
-    users.push(...(json.data || []));
-    cursor = json.nextPageCursor;
-    await sleep(1000);
-  } while (cursor);
+  async function usersOf(role) {
+    const out = [];
+    let cursor = "";
+    do {
+      const c = cursor ? `&cursor=${cursor}` : "";
+      const json = await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}/roles/${role.id}/users?limit=100&sortOrder=Asc${c}`);
+      out.push(...(json.data || []).map((u) => ({ ...u, roleName: role.name, roleRank: role.rank })));
+      cursor = json.nextPageCursor;
+      await sleep(1000);
+    } while (cursor);
+    return out;
+  }
+
+  const partnerRoles = findRoles([PARTNER_ROLE_NAME]);
+  if (!partnerRoles.length) console.log(`No "${PARTNER_ROLE_NAME}" rank found. Ranks are: ${allRanks}`);
+  const staffRoles = findRoles(STAFF_ROLE_NAMES);
+  if (!staffRoles.length) console.log(`No rank matching ${JSON.stringify(STAFF_ROLE_NAMES)} found for staff. Ranks are: ${allRanks}`);
+
+  const partnerUsers = [];
+  for (const r of partnerRoles) partnerUsers.push(...(await usersOf(r)));
+  const staffUsers = [];
+  for (const r of staffRoles) staffUsers.push(...(await usersOf(r)));
+  // highest rank first, then alphabetical
+  staffUsers.sort((a, b) => b.roleRank - a.roleRank || (a.displayName || a.username).localeCompare(b.displayName || b.username));
 
   // Avatar headshots (420x420). Roblox sometimes answers "Pending" while it renders, so retry a few times.
+  const everyone = [...new Set([...partnerUsers, ...staffUsers].map((u) => u.userId))];
   const avatars = {};
-  for (let i = 0; i < users.length; i += 100) {
-    const ids = users.slice(i, i + 100).map((u) => u.userId);
+  for (let i = 0; i < everyone.length; i += 100) {
+    const ids = everyone.slice(i, i + 100);
     let todo = ids;
     for (let attempt = 1; attempt <= 5 && todo.length; attempt++) {
       const json = await get(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${todo.join(",")}&size=420x420&format=Png&isCircular=false`);
@@ -121,27 +141,30 @@ async function fetchPartners() {
     if (todo.length) console.log(`No avatar image for user(s): ${todo.join(", ")}`);
   }
 
-  console.log(`Partners: ${users.length} users`);
-  const partners = users.map((u) => ({
+  const shape = (u) => ({
     id: u.userId,
     name: u.username,
     displayName: u.displayName || u.username,
     hasVerifiedBadge: !!u.hasVerifiedBadge,
+    role: u.roleName,
     avatar: avatars[u.userId] || null,
-  }));
+  });
+  console.log(`Partners: ${partnerUsers.length} users, Staff: ${staffUsers.length} users`);
   // The studio group's own member count is added to the "Group Members" stat on the page.
   const studio = { id: STUDIO_GROUP_ID, name: info.name, memberCount: info.memberCount ?? null };
-  return { partners, studio };
+  return { partners: partnerUsers.map(shape), staff: staffUsers.map(shape), studio };
 }
 
-// Quick mode: `node update.mjs --partners` refreshes ONLY the partners list in data.json (takes seconds).
-if (process.argv.includes("--partners")) {
+// Quick mode: `node scripts/update.mjs --quick` (or --partners) refreshes ONLY partners, staff and the studio
+// member count in data.json (takes seconds). It leaves the items and the "Updated" time untouched.
+if (process.argv.includes("--quick") || process.argv.includes("--partners")) {
   const data = JSON.parse(await readFile(DATA_PATH, "utf8"));
-  const r = await fetchPartners();
+  const r = await fetchPeople();
   data.partners = r.partners;
+  data.staff = r.staff;
   data.studio = r.studio;
   await writeFile(DATA_PATH, JSON.stringify(data, null, 1));
-  console.log("Updated partners in data.json.");
+  console.log("Updated partners, staff and studio members in data.json.");
   process.exit(0);
 }
 
@@ -225,14 +248,16 @@ try {
 }
 
 let partners = [];
+let staff = [];
 let studio = null;
 try {
-  const r = await fetchPartners();
+  const r = await fetchPeople();
   partners = r.partners;
+  staff = r.staff;
   studio = r.studio;
 } catch (e) {
   console.log(`Could not load partners: ${e.message}`);
 }
 
-await writeFile(DATA_PATH, JSON.stringify({ updated: new Date().toISOString(), groups, workedWith, partners, studio }, null, 1));
+await writeFile(DATA_PATH, JSON.stringify({ updated: new Date().toISOString(), groups, workedWith, partners, staff, studio }, null, 1));
 console.log(`Wrote data.json: ${ids.length} unique items from ${groups.length} sources.`);

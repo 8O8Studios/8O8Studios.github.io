@@ -419,26 +419,28 @@ function renderWorked(list){
   col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));
   workedCol = col;
 }
-let partnersCol = null;
-function renderPartners(list){
+let partnersCol = null, staffCol = null;
+const peopleCollapsed = new Set();   // remembers which people columns the visitor collapsed across refreshes
+function peopleColumn(title, list, emptyMsg){
   list = list || [];
-  const col = el("div", { className: "column" });
+  const col = el("div", { className: "column" + (peopleCollapsed.has(title) ? " collapsed" : "") });
   const head = el("div", { className: "column-title", tabIndex: 0 });
   head.setAttribute("role", "button");
-  head.setAttribute("aria-expanded", "true");
+  head.setAttribute("aria-expanded", String(!peopleCollapsed.has(title)));
   const ttl = el("div", { className: "ttl" });
   ttl.innerHTML = CHEVRON;
-  ttl.append("Partners");
+  ttl.append(title);
   head.append(ttl, el("span", {}, `(${list.length})`));
   const toggle = () => {
     const c = col.classList.toggle("collapsed");
     head.setAttribute("aria-expanded", String(!c));
+    if (c) peopleCollapsed.add(title); else peopleCollapsed.delete(title);
   };
   head.addEventListener("click", toggle);
   head.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
 
   const row = el("div", { className: "column-items" });
-  if (!list.length) row.append(el("p", { className: "msg", textContent: "No partners to show yet." }));
+  if (!list.length) row.append(el("p", { className: "msg", textContent: emptyMsg }));
   list.forEach((p) => {
     const a = el("a", { className: "tile", href: "https://www.roblox.com/users/" + p.id + "/profile", target: "_blank", rel: "noopener noreferrer" });
     const frame = el("div", { className: "frame" }, p.avatar
@@ -449,12 +451,14 @@ function renderPartners(list){
     a.append(frame, nameEl);
     a.append(el("div", { className: "meta" },
       el("span", { textContent: "@" + p.name }),
-      el("span", { textContent: "↗" })));
+      el("span", { textContent: p.role || "↗" })));
     row.append(a);
   });
   col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));
-  partnersCol = col;
+  return col;
 }
+function renderPartners(list){ partnersCol = peopleColumn("Partners", list, "No partners to show yet."); }
+function renderStaff(list){ staffCol = peopleColumn("Staff", list, "No staff to show yet."); }
 let stats = { favs: 0, groups: 0, items: 0, members: null };
 const fmt = (n) => (n == null ? "—" : Number(n).toLocaleString());
 function statsStrip(pairs){
@@ -583,6 +587,9 @@ function render(){
     }
   });
 
+  // "Staff" column is the very last column, directly above the About box
+  if (staffCol) board.append(staffCol);
+
   $("count").textContent = list.length + (list.length === 1 ? " item" : " items");
 }
 
@@ -647,21 +654,39 @@ document.addEventListener("keydown", (e) => { if (e.key === "Escape" && dd.class
 
 renderWorked(WORKED_FALLBACK);
 renderPartners([]);
-fetch("data.json").then(r => r.json()).then(data => {
-  if (!data.groups.length) {
-    $("sub").textContent = "No items yet";
-    return;
-  }
-  build(data);
-  if (data.workedWith && data.workedWith.length) renderWorked(data.workedWith);
-  renderPartners(data.partners || []);
-  const gCount = groups.filter((g) => g.type !== "User").length;
-  $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
-  renderChips();
-  render();
-  if (data.updated) $("foot").textContent = "Updated " + new Date(data.updated).toLocaleString();
-}).catch(() => {
-  $("sub").textContent = "Could not load items";
+renderStaff([]);
+
+// Loads data.json. Called once on page load and again every 5 minutes (only re-draws when the data changed).
+const REFRESH_MS = 5 * 60 * 1000;
+let lastUpdated = null, lastCheck = 0, loadedOnce = false;
+function load(){
+  lastCheck = Date.now();
+  return fetch("data.json?t=" + Date.now(), { cache: "no-store" }).then(r => r.json()).then(data => {
+    if (!data.groups.length) {
+      if (!loadedOnce) $("sub").textContent = "No items yet";
+      return;
+    }
+    const sig = JSON.stringify([data.updated, data.partners, data.staff, data.studio]);
+    if (loadedOnce && sig === lastUpdated) return;   // nothing new
+    lastUpdated = sig;
+    loadedOnce = true;
+    build(data);
+    if (data.workedWith && data.workedWith.length) renderWorked(data.workedWith);
+    renderPartners(data.partners || []);
+    renderStaff(data.staff || []);
+    const gCount = groups.filter((g) => g.type !== "User").length;
+    $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
+    renderChips();
+    render();
+    if (data.updated) $("foot").textContent = "Updated " + new Date(data.updated).toLocaleString();
+  }).catch(() => {
+    if (!loadedOnce) $("sub").textContent = "Could not load items";   // a failed background refresh stays silent
+  });
+}
+load();
+setInterval(() => { if (!document.hidden) load(); }, REFRESH_MS);
+document.addEventListener("visibilitychange", () => {
+  if (!document.hidden && Date.now() - lastCheck > REFRESH_MS) load();
 });
 </script>
 </body>
