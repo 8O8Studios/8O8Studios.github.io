@@ -23872,6 +23872,7 @@
    "name": "DrCrowds",
    "displayName": "Crowds",
    "hasVerifiedBadge": true,
+   "role": "Partner",
    "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-866631BA26D647CBE74C1D85CEAA0B8B-Png/420/420/AvatarHeadshot/Png/noFilter"
   },
   {
@@ -23879,12 +23880,39 @@
    "name": "vamzps",
    "displayName": "iRhy",
    "hasVerifiedBadge": false,
+   "role": "Partner",
    "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-44FE33155DBE35BC669D297EE90AED19-Png/420/420/AvatarHeadshot/Png/noFilter"
   }
  ],
  "studio": {
   "id": 33198659,
   "name": "8O8 Studios",
-  "memberCount": 7586
- }
+  "memberCount": 7587
+ },
+ "staff": [
+  {
+   "id": 1303580679,
+   "name": "8O8Mph",
+   "displayName": "8O8Mph",
+   "hasVerifiedBadge": false,
+   "role": "Staff",
+   "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-29B292240454D6073E76978430906E9A-Png/420/420/AvatarHeadshot/Png/noFilter"
+  },
+  {
+   "id": 11703181959,
+   "name": "8O8Studios",
+   "displayName": "8O8Studios",
+   "hasVerifiedBadge": false,
+   "role": "Staff",
+   "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-B02553B5B5B56CB92237C83D26577364-Png/420/420/AvatarHeadshot/Png/noFilter"
+  },
+  {
+   "id": 6067067025,
+   "name": "scriptedfunds",
+   "displayName": "scriptedfunds",
+   "hasVerifiedBadge": false,
+   "role": "Staff",
+   "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-A72B760EA0BDC378704009320C94EFBE-Png/420/420/AvatarHeadshot/Png/noFilter"
+  }
+ ]
 }
