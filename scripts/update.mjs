@@ -1,11 +1,18 @@
 // Fetches ALL items for each Roblox group (and your profile) via cursor pagination and writes data.json.
 // Run locally: node update.mjs
 import { readFile, writeFile } from "node:fs/promises";
+import { fileURLToPath } from "node:url";
+
+// data.json lives in the project root (one folder up from /scripts), so this works from any directory.
+const DATA_PATH = fileURLToPath(new URL("../data.json", import.meta.url));
 
 const GROUP_IDS = [32663795, 799946898, 33459419, 34114424, 16114977, 564029410];
 const USER_IDS = [1303580679]; // 8O8Mph's profile
 // Groups shown in the "Worked with" section (name, members and icon are fetched automatically)
 const WORKED_WITH_IDS = [5948929, 7498332, 17192115, 11636314, 8108593];
+// The 8O8 Studios group: everyone with the "Partners" rank is shown in the Partners column.
+const STUDIO_GROUP_ID = 33198659;
+const PARTNER_ROLE_NAME = "Partner";
 const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 const PAGE_SIZE = 30;         // 30 per page is known to work with this endpoint
 const MAX_PAGES = 400;        // safety limit only (400 x 30 = 12,000 items per source)
@@ -80,6 +87,64 @@ async function addSource(list, { id, type, name, memberCount, hasVerifiedBadge }
   console.log(`${name}: ${latest.length} items${memberCount != null ? `, ${memberCount} members` : ""}`);
 }
 
+// Fetches every user holding the Partners rank in the studio group (+ their avatar headshots).
+async function fetchPartners() {
+  const info = await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}`);
+  console.log(`Partners source group: ${info.name} (${STUDIO_GROUP_ID})`);
+  await sleep(1000);
+  const roles = (await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}/roles`)).roles || [];
+  const role = roles.find((r) => r.name.trim().toLowerCase() === PARTNER_ROLE_NAME.toLowerCase());
+  if (!role) throw new Error(`No "${PARTNER_ROLE_NAME}" rank found. Ranks are: ${roles.map((r) => r.name).join(", ")}`);
+  await sleep(1000);
+
+  const users = [];
+  let cursor = "";
+  do {
+    const c = cursor ? `&cursor=${cursor}` : "";
+    const json = await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}/roles/${role.id}/users?limit=100&sortOrder=Asc${c}`);
+    users.push(...(json.data || []));
+    cursor = json.nextPageCursor;
+    await sleep(1000);
+  } while (cursor);
+
+  // Avatar headshots (420x420). Roblox sometimes answers "Pending" while it renders, so retry a few times.
+  const avatars = {};
+  for (let i = 0; i < users.length; i += 100) {
+    const ids = users.slice(i, i + 100).map((u) => u.userId);
+    let todo = ids;
+    for (let attempt = 1; attempt <= 5 && todo.length; attempt++) {
+      const json = await get(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${todo.join(",")}&size=420x420&format=Png&isCircular=false`);
+      for (const t of json.data || []) if (t.state === "Completed" && t.imageUrl) avatars[t.targetId] = t.imageUrl;
+      todo = ids.filter((id) => !avatars[id]);
+      await sleep(attempt * 1500);
+    }
+    if (todo.length) console.log(`No avatar image for user(s): ${todo.join(", ")}`);
+  }
+
+  console.log(`Partners: ${users.length} users`);
+  const partners = users.map((u) => ({
+    id: u.userId,
+    name: u.username,
+    displayName: u.displayName || u.username,
+    hasVerifiedBadge: !!u.hasVerifiedBadge,
+    avatar: avatars[u.userId] || null,
+  }));
+  // The studio group's own member count is added to the "Group Members" stat on the page.
+  const studio = { id: STUDIO_GROUP_ID, name: info.name, memberCount: info.memberCount ?? null };
+  return { partners, studio };
+}
+
+// Quick mode: `node update.mjs --partners` refreshes ONLY the partners list in data.json (takes seconds).
+if (process.argv.includes("--partners")) {
+  const data = JSON.parse(await readFile(DATA_PATH, "utf8"));
+  const r = await fetchPartners();
+  data.partners = r.partners;
+  data.studio = r.studio;
+  await writeFile(DATA_PATH, JSON.stringify(data, null, 1));
+  console.log("Updated partners in data.json.");
+  process.exit(0);
+}
+
 const groups = [];
 
 for (const id of GROUP_IDS) {
@@ -108,7 +173,7 @@ for (let i = 0; i < ids.length; i += 100) {
 // so only brand-new items need a request and later runs are fast.
 const dateCache = new Map();
 try {
-  const old = JSON.parse(await readFile("data.json", "utf8"));
+  const old = JSON.parse(await readFile(DATA_PATH, "utf8"));
   for (const g of old.groups || [])
     for (const row of [g.latest, g.bestSelling, g.favorited])
       for (const i of row || []) if (i.created) dateCache.set(i.id, i.created);
@@ -159,5 +224,15 @@ try {
   console.log(`Could not load worked-with icons: ${e.message}`);
 }
 
-await writeFile("data.json", JSON.stringify({ updated: new Date().toISOString(), groups, workedWith }, null, 1));
+let partners = [];
+let studio = null;
+try {
+  const r = await fetchPartners();
+  partners = r.partners;
+  studio = r.studio;
+} catch (e) {
+  console.log(`Could not load partners: ${e.message}`);
+}
+
+await writeFile(DATA_PATH, JSON.stringify({ updated: new Date().toISOString(), groups, workedWith, partners, studio }, null, 1));
 console.log(`Wrote data.json: ${ids.length} unique items from ${groups.length} sources.`);

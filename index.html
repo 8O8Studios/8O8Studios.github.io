@@ -419,6 +419,42 @@ function renderWorked(list){
   col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));
   workedCol = col;
 }
+let partnersCol = null;
+function renderPartners(list){
+  list = list || [];
+  const col = el("div", { className: "column" });
+  const head = el("div", { className: "column-title", tabIndex: 0 });
+  head.setAttribute("role", "button");
+  head.setAttribute("aria-expanded", "true");
+  const ttl = el("div", { className: "ttl" });
+  ttl.innerHTML = CHEVRON;
+  ttl.append("Partners");
+  head.append(ttl, el("span", {}, `(${list.length})`));
+  const toggle = () => {
+    const c = col.classList.toggle("collapsed");
+    head.setAttribute("aria-expanded", String(!c));
+  };
+  head.addEventListener("click", toggle);
+  head.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); toggle(); } });
+
+  const row = el("div", { className: "column-items" });
+  if (!list.length) row.append(el("p", { className: "msg", textContent: "No partners to show yet." }));
+  list.forEach((p) => {
+    const a = el("a", { className: "tile", href: "https://www.roblox.com/users/" + p.id + "/profile", target: "_blank", rel: "noopener noreferrer" });
+    const frame = el("div", { className: "frame" }, p.avatar
+      ? el("img", { className: "img", src: p.avatar, alt: "", loading: "lazy" })
+      : el("div", { className: "ph letter", textContent: (p.displayName || p.name || "?").charAt(0).toUpperCase() }));
+    const nameEl = el("div", { className: "name", textContent: p.displayName || p.name });
+    if (p.hasVerifiedBadge) nameEl.append(badgeEl());
+    a.append(frame, nameEl);
+    a.append(el("div", { className: "meta" },
+      el("span", { textContent: "@" + p.name }),
+      el("span", { textContent: "↗" })));
+    row.append(a);
+  });
+  col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));
+  partnersCol = col;
+}
 let stats = { favs: 0, groups: 0, items: 0, members: null };
 const fmt = (n) => (n == null ? "—" : Number(n).toLocaleString());
 function statsStrip(pairs){
@@ -442,7 +478,9 @@ function build(data){
   items = [...map.values()];
 
   // Members: use data.totalMembers if provided, otherwise add up each group's memberCount
-  const memberSum = groups.reduce((n, g) => n + (Number(g.memberCount) || 0), 0);
+  // The 8O8 Studios group (data.studio) is counted too.
+  const memberSum = groups.reduce((n, g) => n + (Number(g.memberCount) || 0), 0)
+    + (data.studio ? Number(data.studio.memberCount) || 0 : 0);
   stats = {
     favs: items.reduce((n, i) => n + (Number(i.favorites) || 0), 0),
     groups: groups.filter((g) => g.type !== "User").length,
@@ -510,6 +548,8 @@ function render(){
   categoryOrder.forEach(cat => {
     // "Worked With" row sits right after Waist Accessories (i.e. just before Shoulder Accessories)
     if (cat === "Shoulder Accessories" && workedCol) board.append(workedCol);
+    // "Partners" column sits directly above Neck Accessories
+    if (cat === "Neck Accessories" && partnersCol) board.append(partnersCol);
     const catItems = list.filter(i => (i.category || "Other Accessories") === cat);
     if (catItems.length > 0) {
       const isCollapsed = collapsed.has(cat);
@@ -606,6 +646,7 @@ document.addEventListener("click", (e) => { if (!dd.contains(e.target)) setDD(fa
 document.addEventListener("keydown", (e) => { if (e.key === "Escape" && dd.classList.contains("open")) { setDD(false); ddBtn.focus(); } });
 
 renderWorked(WORKED_FALLBACK);
+renderPartners([]);
 fetch("data.json").then(r => r.json()).then(data => {
   if (!data.groups.length) {
     $("sub").textContent = "No items yet";
@@ -613,6 +654,7 @@ fetch("data.json").then(r => r.json()).then(data => {
   }
   build(data);
   if (data.workedWith && data.workedWith.length) renderWorked(data.workedWith);
+  renderPartners(data.partners || []);
   const gCount = groups.filter((g) => g.type !== "User").length;
   $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
   renderChips();
