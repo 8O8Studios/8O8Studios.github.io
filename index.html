@@ -524,7 +524,49 @@ function peopleColumn(title, list, emptyMsg){
   return col;
 }
 function renderPartners(list){ partnersCol = peopleColumn("Partners", list, "No partners to show yet."); }
-function renderStaff(list){ staffCol = peopleColumn("Staff", list, "No staff to show yet."); }
+
+// The Staff section is reserved for the exact "Staff" role in the 8O8 Studios group.
+const STAFF_GROUP_ID = 33198659;
+function getMemberRoleNames(member){
+  const values = [
+    member.role,
+    member.roleName,
+    member.rankName,
+    typeof member.rank === "string" ? member.rank : null,
+    ...(Array.isArray(member.roles) ? member.roles : [])
+  ];
+  return values.map(value => {
+    if (typeof value === "string") return value.trim();
+    if (value && typeof value === "object") {
+      return String(value.name || value.displayName || value.roleName || "").trim();
+    }
+    return "";
+  }).filter(Boolean);
+}
+function renderStaff(list){
+  const staffById = new Map();
+
+  (Array.isArray(list) ? list : []).forEach(member => {
+    if (!member || member.id == null) return;
+
+    // If the data source includes a group ID, only accept the 8O8 Studios group.
+    if (member.groupId != null && Number(member.groupId) !== STAFF_GROUP_ID) return;
+
+    // Only the exact Staff rank is included (not similarly named ranks).
+    if (!getMemberRoleNames(member).some(role => role.toLowerCase() === "staff")) return;
+
+    const id = String(member.id);
+    const existing = staffById.get(id);
+    if (existing) {
+      // Merge duplicate records for the same person without showing another card.
+      staffById.set(id, { ...member, ...existing, ...member });
+    } else {
+      staffById.set(id, { ...member, role: "Staff" });
+    }
+  });
+
+  staffCol = peopleColumn("Staff", [...staffById.values()], "No members currently have the Staff rank.");
+}
 let stats = { favs: 0, groups: 0, items: 0, members: null };
 const fmt = (n) => (n == null ? "—" : Number(n).toLocaleString());
 function statsStrip(pairs){
@@ -812,6 +854,7 @@ function load(){
     build(data);
     if (data.workedWith && data.workedWith.length) renderWorked(data.workedWith);
     renderPartners(data.partners || []);
+    // data.staff must contain the role-tagged member records from group 33198659.
     renderStaff(data.staff || []);
     const gCount = groups.filter((g) => g.type !== "User").length;
     $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
