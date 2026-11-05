@@ -20,10 +20,17 @@ const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 const PAGE_SIZE = 30;         // 30 per page is known to work with this endpoint
 const MAX_PAGES = 400;        // safety limit only (400 x 30 = 12,000 items per source)
 
+// Previous data.json (if any): used as a fallback whenever Roblox rate limits a request.
+let OLD = null;
+try { OLD = JSON.parse(await readFile(DATA_PATH, "utf8")); } catch { /* no data.json yet */ }
+
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
+const QUICK = process.argv.includes("--quick") || process.argv.includes("--partners");
+const MAX_TRIES = QUICK ? 3 : 8;   // quick mode gives up sooner when Roblox rate limits
+
 async function get(url) {
-  for (let i = 1; i <= 8; i++) {
+  for (let i = 1; i <= MAX_TRIES; i++) {
     const res = await fetch(url, { headers: { accept: "application/json" } });
     if (res.ok) return res.json();
     if (res.status === 429) {
@@ -92,7 +99,7 @@ async function addSource(list, { id, type, name, memberCount, hasVerifiedBadge }
 
 // Fetches the people for the Partners + Staff columns from the studio group (+ their avatar headshots),
 // and the studio group's own member count.
-async function fetchPeople() {
+async function fetchPeople(known = {}) {
   const info = await get(`https://groups.roblox.com/v1/groups/${STUDIO_GROUP_ID}`);
   console.log(`People source group: ${info.name} (${STUDIO_GROUP_ID})`);
   await sleep(1000);
@@ -128,9 +135,10 @@ async function fetchPeople() {
 
   // Avatar headshots (420x420). Roblox sometimes answers "Pending" while it renders, so retry a few times.
   const everyone = [...new Set([...partnerUsers, ...staffUsers].map((u) => u.userId))];
-  const avatars = {};
-  for (let i = 0; i < everyone.length; i += 100) {
-    const ids = everyone.slice(i, i + 100);
+  const avatars = { ...known };   // avatars we already have are reused, so fewer requests
+  const missing = everyone.filter((id) => !avatars[id]);
+  for (let i = 0; i < missing.length; i += 100) {
+    const ids = missing.slice(i, i + 100);
     let todo = ids;
     for (let attempt = 1; attempt <= 5 && todo.length; attempt++) {
       const json = await get(`https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${todo.join(",")}&size=420x420&format=Png&isCircular=false`);
@@ -157,30 +165,51 @@ async function fetchPeople() {
 
 // Quick mode: `node scripts/update.mjs --quick` (or --partners) refreshes ONLY partners, staff and the studio
 // member count in data.json (takes seconds). It leaves the items and the "Updated" time untouched.
-if (process.argv.includes("--quick") || process.argv.includes("--partners")) {
-  const data = JSON.parse(await readFile(DATA_PATH, "utf8"));
-  const r = await fetchPeople();
-  data.partners = r.partners;
-  data.staff = r.staff;
-  data.studio = r.studio;
-  await writeFile(DATA_PATH, JSON.stringify(data, null, 1));
-  console.log("Updated partners, staff and studio members in data.json.");
+if (QUICK) {
+  const data = OLD;
+  if (!data) { console.log("No data.json yet. Run the full update first: node scripts/update.mjs"); process.exit(0); }
+  const known = {};
+  for (const p of [...(data.partners || []), ...(data.staff || [])]) if (p.avatar) known[p.id] = p.avatar;
+  try {
+    const r = await fetchPeople(known);
+    data.partners = r.partners;
+    data.staff = r.staff;
+    data.studio = r.studio;
+    await writeFile(DATA_PATH, JSON.stringify(data, null, 1));
+    console.log("Updated partners, staff and studio members in data.json.");
+  } catch (e) {
+    // Rate limited or Roblox hiccup: keep the old data and try again next run (no failed workflow).
+    console.log(`Quick update skipped: ${e.message}`);
+  }
   process.exit(0);
 }
 
 const groups = [];
 
+// If one source fails (e.g. rate limited), keep its previous data instead of losing it.
+function keepOld(id, e) {
+  const prev = (OLD?.groups || []).find((g) => g.id === id);
+  console.log(`Could not refresh ${id}: ${e.message}${prev ? " - keeping previous data" : ""}`);
+  if (prev) groups.push(prev);
+}
+
 for (const id of GROUP_IDS) {
-  const info = await get(`https://groups.roblox.com/v1/groups/${id}`);
-  await sleep(1000);
-  await addSource(groups, { id, type: "Group", name: info.name, memberCount: info.memberCount ?? null, hasVerifiedBadge: info.hasVerifiedBadge ?? false });
+  try {
+    const info = await get(`https://groups.roblox.com/v1/groups/${id}`);
+    await sleep(1000);
+    await addSource(groups, { id, type: "Group", name: info.name, memberCount: info.memberCount ?? null, hasVerifiedBadge: info.hasVerifiedBadge ?? false });
+  } catch (e) { keepOld(id, e); }
 }
 
 for (const id of USER_IDS) {
-  const info = await get(`https://users.roblox.com/v1/users/${id}`);
-  await sleep(1000);
-  await addSource(groups, { id, type: "User", name: info.name, memberCount: null, hasVerifiedBadge: info.hasVerifiedBadge ?? false });
+  try {
+    const info = await get(`https://users.roblox.com/v1/users/${id}`);
+    await sleep(1000);
+    await addSource(groups, { id, type: "User", name: info.name, memberCount: null, hasVerifiedBadge: info.hasVerifiedBadge ?? false });
+  } catch (e) { keepOld(id, e); }
 }
+
+if (!groups.length) { console.log("Nothing could be loaded. Keeping data.json as it is."); process.exit(0); }
 
 // Extract unique asset IDs to fetch thumbnails
 const ids = [...new Set(groups.flatMap((g) => [...g.latest, ...g.bestSelling, ...g.favorited].map((i) => i.id)))];
@@ -195,12 +224,9 @@ for (let i = 0; i < ids.length; i += 100) {
 // Upload dates (used for "Latest arrivals"). Dates already saved in the old data.json are reused,
 // so only brand-new items need a request and later runs are fast.
 const dateCache = new Map();
-try {
-  const old = JSON.parse(await readFile(DATA_PATH, "utf8"));
-  for (const g of old.groups || [])
-    for (const row of [g.latest, g.bestSelling, g.favorited])
-      for (const i of row || []) if (i.created) dateCache.set(i.id, i.created);
-} catch { /* no old data.json yet */ }
+for (const g of OLD?.groups || [])
+  for (const row of [g.latest, g.bestSelling, g.favorited])
+    for (const i of row || []) if (i.created) dateCache.set(i.id, i.created);
 
 const missingDates = ids.filter((id) => !dateCache.has(id));
 console.log(`Fetching upload dates for ${missingDates.length} items (${dateCache.size} already known)...`);
@@ -247,16 +273,17 @@ try {
   console.log(`Could not load worked-with icons: ${e.message}`);
 }
 
-let partners = [];
-let staff = [];
-let studio = null;
+// Partners / staff / studio: keep the previous values if Roblox rate limits this part.
+let partners = OLD?.partners || [];
+let staff = OLD?.staff || [];
+let studio = OLD?.studio || null;
 try {
   const r = await fetchPeople();
   partners = r.partners;
   staff = r.staff;
   studio = r.studio;
 } catch (e) {
-  console.log(`Could not load partners: ${e.message}`);
+  console.log(`Could not load partners/staff, keeping previous: ${e.message}`);
 }
 
 await writeFile(DATA_PATH, JSON.stringify({ updated: new Date().toISOString(), groups, workedWith, partners, staff, studio }, null, 1));
