@@ -219,6 +219,7 @@ main{padding:20px clamp(16px,2vw,32px) 64px;width:100%;max-width:100%}
 .msg{padding:48px 0;color:var(--muted);text-align:center;width:100%}
 .vbadge{display:inline-block;width:1.05em;height:1.05em;flex-shrink:0;vertical-align:-.16em;margin-left:6px}
 .chip .vbadge{margin-left:0;width:14px;height:14px;vertical-align:middle}
+.tile .role{margin-top:4px;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#a995ed;overflow-wrap:anywhere}
 .tile .ph.letter{display:grid;place-items:center;font-size:3rem;font-weight:900;color:#a995ed}
 .about{
   max-width:900px;margin:0 auto 32px;padding:28px clamp(20px,4vw,36px);text-align:center;
@@ -451,7 +452,8 @@ function peopleColumn(title, list, emptyMsg){
     a.append(frame, nameEl);
     a.append(el("div", { className: "meta" },
       el("span", { textContent: "@" + p.name }),
-      el("span", { textContent: p.role || "↗" })));
+      el("span", { textContent: "↗" })));
+    if (p.role) a.append(el("div", { className: "role", textContent: p.role }));
     row.append(a);
   });
   col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));

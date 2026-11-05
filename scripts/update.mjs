@@ -13,9 +13,10 @@ const WORKED_WITH_IDS = [5948929, 7498332, 17192115, 11636314, 8108593];
 // The 8O8 Studios group: everyone with the "Partners" rank is shown in the Partners column.
 const STUDIO_GROUP_ID = 33198659;
 const PARTNER_ROLE_NAME = "Partner";
-// Ranks in the studio group shown in the Staff column (not case-sensitive). Add every staff rank name here,
-// e.g. ["Staff", "Moderator", "Developer"]. If a name doesn't exist the script prints the ranks that do.
-const STAFF_ROLE_NAMES = ["Staff"];
+// Staff column: leave STAFF_ROLE_NAMES empty to show EVERY rank in the studio group except the ones in
+// STAFF_EXCLUDE (and the Guest rank). Or list specific rank names (not case-sensitive) to show only those.
+const STAFF_ROLE_NAMES = [];
+const STAFF_EXCLUDE = ["Guest", "Member", "Partner"];
 const SORT = { latest: 3, bestSelling: 2, favorited: 1 };
 const PAGE_SIZE = 30;         // 30 per page is known to work with this endpoint
 const MAX_PAGES = 400;        // safety limit only (400 x 30 = 12,000 items per source)
@@ -123,8 +124,10 @@ async function fetchPeople(known = {}) {
 
   const partnerRoles = findRoles([PARTNER_ROLE_NAME]);
   if (!partnerRoles.length) console.log(`No "${PARTNER_ROLE_NAME}" rank found. Ranks are: ${allRanks}`);
-  const staffRoles = findRoles(STAFF_ROLE_NAMES);
-  if (!staffRoles.length) console.log(`No rank matching ${JSON.stringify(STAFF_ROLE_NAMES)} found for staff. Ranks are: ${allRanks}`);
+  const staffRoles = STAFF_ROLE_NAMES.length
+    ? findRoles(STAFF_ROLE_NAMES)
+    : roles.filter((r) => r.rank > 0 && !STAFF_EXCLUDE.some((n) => n.toLowerCase() === r.name.trim().toLowerCase()));
+  console.log(`Staff ranks: ${staffRoles.map((r) => r.name).join(", ") || "(none)"}  |  all ranks: ${allRanks}`);
 
   const partnerUsers = [];
   for (const r of partnerRoles) partnerUsers.push(...(await usersOf(r)));
