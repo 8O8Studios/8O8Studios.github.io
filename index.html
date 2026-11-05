@@ -221,6 +221,50 @@ main{padding:20px clamp(16px,2vw,32px) 64px;width:100%;max-width:100%}
 .chip .vbadge{margin-left:0;width:14px;height:14px;vertical-align:middle}
 .tile .role{margin-top:4px;font-size:.72rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#a995ed;overflow-wrap:anywhere}
 .tile .ph.letter{display:grid;place-items:center;font-size:3rem;font-weight:900;color:#a995ed}
+
+/* Favourite star on item tiles */
+.fav-btn{all:unset;box-sizing:border-box;position:absolute;top:8px;right:8px;z-index:3;width:34px;height:34px;display:grid;place-items:center;cursor:pointer;border-radius:50%;
+  background:rgba(12,10,24,.62);border:1px solid rgba(255,255,255,.18);color:#fff;-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);transition:transform .25s var(--spring),color .2s,background .2s}
+.fav-btn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2;stroke-linejoin:round}
+.fav-btn:hover{transform:scale(1.12);color:#fff;border-color:rgba(255,255,255,.5)}
+.fav-btn:focus-visible{outline:2px solid #b69aff;outline-offset:2px}
+.fav-btn.on{color:#fff;background:rgba(12,10,24,.7);border-color:rgba(255,255,255,.6)}
+.fav-btn.on svg{fill:currentColor}
+.tile[role=button]:focus-visible{outline:2px solid #b69aff;outline-offset:3px}
+
+/* Crown on a staff member's avatar */
+.crown{position:absolute;top:6px;left:6px;z-index:3;width:38px;height:38px;transform:rotate(-14deg);filter:drop-shadow(0 2px 5px rgba(0,0,0,.55));pointer-events:none}
+
+/* Favourites side tab + drawer */
+.favs{position:fixed;top:0;right:0;bottom:0;z-index:40;width:min(380px,92vw);transform:translateX(100%);transition:transform .45s var(--ease)}
+.favs.open{transform:translateX(0)}
+.favs-tab{all:unset;box-sizing:border-box;cursor:pointer;position:absolute;left:-34px;top:38%;width:34px;padding:10px 0;display:flex;flex-direction:column;align-items:center;gap:7px;
+  border-radius:12px 0 0 12px;background:linear-gradient(160deg,rgba(63,48,108,.92),rgba(24,32,66,.92));border:1px solid rgba(151,132,224,.4);border-right:0;color:#fff;
+  box-shadow:-8px 10px 30px -10px rgba(0,0,0,.6);transition:padding .25s}
+.favs-tab:hover{padding:13px 0}
+.favs-tab:focus-visible{outline:2px solid #b69aff;outline-offset:2px}
+.favs-tab svg{width:15px;height:15px;fill:currentColor}
+.favs-tab span.lbl{writing-mode:vertical-rl;font-size:.58rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:#e9e4ff}
+.favs-tab b{min-width:18px;padding:1px 4px;border-radius:999px;background:#fff;color:#1a1330;font-size:.62rem;text-align:center}
+.favs-panel{height:100%;display:flex;flex-direction:column;background:linear-gradient(170deg,rgba(28,22,52,.98),rgba(11,14,30,.98));border-left:1px solid rgba(151,132,224,.35);box-shadow:-20px 0 50px -20px rgba(0,0,0,.7)}
+.favs-head{display:flex;align-items:center;justify-content:space-between;padding:20px 20px 14px;border-bottom:1px solid rgba(151,132,224,.18)}
+.favs-head h2{margin:0;font-size:1.05rem;letter-spacing:.14em;text-transform:uppercase}
+.favs-close{all:unset;cursor:pointer;width:32px;height:32px;display:grid;place-items:center;border-radius:50%;color:var(--muted)}
+.favs-close:hover{background:rgba(255,255,255,.08);color:#fff}
+.favs-close:focus-visible{outline:2px solid #b69aff}
+.favs-list{flex:1;overflow:auto;padding:14px 16px 24px;display:flex;flex-direction:column;gap:10px}
+.favs-empty{margin:40px 10px;text-align:center;color:var(--muted);line-height:1.6}
+.fav-row{all:unset;box-sizing:border-box;cursor:pointer;display:flex;align-items:center;gap:12px;padding:8px;border-radius:16px;position:relative;
+  background:linear-gradient(145deg,rgba(47,37,75,.7),rgba(17,27,52,.75));border:1px solid rgba(151,132,224,.2);transition:border-color .2s,transform .2s}
+.fav-row:hover{border-color:rgba(154,132,255,.7);transform:translateX(-3px)}
+.fav-row:focus-visible{outline:2px solid #b69aff}
+.fav-row .th{flex:0 0 58px;width:58px;height:58px;border-radius:12px;overflow:hidden;background:rgba(91,70,145,.22)}
+.fav-row .th img{width:100%;height:100%;object-fit:contain;display:block}
+.fav-row .tx{flex:1;min-width:0}
+.fav-row .nm{font-size:.86rem;font-weight:600;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.fav-row .pr{margin-top:3px;font-size:.76rem;color:var(--muted)}
+.fav-row .fav-btn{position:static;flex:0 0 34px}
+@media (prefers-reduced-motion:reduce){.favs,.favs-tab,.fav-btn{transition:none}}
 .about{
   max-width:900px;margin:0 auto 32px;padding:28px clamp(20px,4vw,36px);text-align:center;
   background:linear-gradient(145deg,rgba(47,37,75,.28),rgba(17,27,52,.3));
@@ -343,6 +387,21 @@ dialog::backdrop{background:rgba(0,0,0,.6);-webkit-backdrop-filter:blur(6px);bac
 </div>
 <footer id="foot"></footer>
 
+<aside class="favs" id="favs" aria-label="Favourites">
+  <button class="favs-tab" id="favs-tab" type="button" aria-expanded="false" aria-controls="favs-panel" title="Your favourites">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg>
+    <span class="lbl">Favourites</span>
+    <b id="favs-count">0</b>
+  </button>
+  <div class="favs-panel" id="favs-panel" inert>
+    <div class="favs-head">
+      <h2>★ Favourites</h2>
+      <button class="favs-close" id="favs-close" type="button" aria-label="Close favourites">✕</button>
+    </div>
+    <div class="favs-list" id="favs-list"></div>
+  </div>
+</aside>
+
 <dialog id="dlg" aria-labelledby="d-name">
   <div class="detail">
     <button class="x" id="d-close" type="button" aria-label="Close">✕</button>
@@ -420,6 +479,8 @@ function renderWorked(list){
   col.append(head, el("div", { className: "collapse" }, el("div", { className: "inner" }, row)));
   workedCol = col;
 }
+const CROWN_IDS = [1303580679];   // user IDs that get a crown on their avatar
+const CROWN_SVG = '<svg class="crown" viewBox="0 0 64 64" aria-label="Crown" role="img"><path d="M6 46 3 18l16 14L32 8l13 24 16-14-3 28z" fill="#fff" stroke="#b9b2d6" stroke-width="2.5" stroke-linejoin="round"/><rect x="8" y="48" width="48" height="8" rx="3" fill="#fff" stroke="#b9b2d6" stroke-width="2.5"/><circle cx="3" cy="17" r="3.4" fill="#fff" stroke="#b9b2d6" stroke-width="2"/><circle cx="32" cy="7" r="3.8" fill="#fff" stroke="#b9b2d6" stroke-width="2"/><circle cx="61" cy="17" r="3.4" fill="#fff" stroke="#b9b2d6" stroke-width="2"/></svg>';
 let partnersCol = null, staffCol = null;
 const peopleCollapsed = new Set();   // remembers which people columns the visitor collapsed across refreshes
 function peopleColumn(title, list, emptyMsg){
@@ -447,6 +508,7 @@ function peopleColumn(title, list, emptyMsg){
     const frame = el("div", { className: "frame" }, p.avatar
       ? el("img", { className: "img", src: p.avatar, alt: "", loading: "lazy" })
       : el("div", { className: "ph letter", textContent: (p.displayName || p.name || "?").charAt(0).toUpperCase() }));
+    if (CROWN_IDS.includes(Number(p.id))) frame.insertAdjacentHTML("beforeend", CROWN_SVG);
     const nameEl = el("div", { className: "name", textContent: p.displayName || p.name });
     if (p.hasVerifiedBadge) nameEl.append(badgeEl());
     a.append(frame, nameEl);
@@ -501,13 +563,78 @@ function priceText(i){
   return "See price on Roblox";
 }
 
+// ---- Favourites (saved in this visitor's browser) ----
+const FAV_KEY = "8o8-favourites";
+const STAR_SVG = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3 6.1 20.6l1.3-6.6L2.5 9.4l6.6-.8L12 2.5z"/></svg>';
+let favIds = [];
+try { favIds = JSON.parse(localStorage.getItem(FAV_KEY) || "[]").map(String); } catch { favIds = []; }
+const isFav = (id) => favIds.includes(String(id));
+function saveFavs(){ try { localStorage.setItem(FAV_KEY, JSON.stringify(favIds)); } catch { /* storage blocked */ } }
+function favButton(i){
+  const b = el("button", { className: "fav-btn" + (isFav(i.id) ? " on" : ""), type: "button" });
+  b.dataset.id = String(i.id);
+  b.innerHTML = STAR_SVG;
+  b.setAttribute("aria-pressed", String(isFav(i.id)));
+  b.setAttribute("aria-label", "Favourite " + i.name);
+  b.title = isFav(i.id) ? "Remove from favourites" : "Add to favourites";
+  b.addEventListener("click", (e) => { e.stopPropagation(); toggleFav(i.id); });
+  b.addEventListener("keydown", (e) => e.stopPropagation());
+  return b;
+}
+function toggleFav(id){
+  id = String(id);
+  favIds = isFav(id) ? favIds.filter((x) => x !== id) : [id, ...favIds];
+  saveFavs();
+  document.querySelectorAll('.fav-btn[data-id="' + id + '"]').forEach((b) => {
+    const on = isFav(id);
+    b.classList.toggle("on", on);
+    b.setAttribute("aria-pressed", String(on));
+    b.title = on ? "Remove from favourites" : "Add to favourites";
+  });
+  renderFavs();
+}
+const favsEl = $("favs"), favsTab = $("favs-tab"), favsPanel = $("favs-panel");
+function setFavsOpen(open){
+  favsEl.classList.toggle("open", open);
+  favsTab.setAttribute("aria-expanded", String(open));
+  if (open) favsPanel.removeAttribute("inert"); else favsPanel.setAttribute("inert", "");
+}
+function renderFavs(){
+  const byId = new Map(items.map((i) => [String(i.id), i]));
+  const list = favIds.map((id) => byId.get(id)).filter(Boolean);
+  $("favs-count").textContent = String(list.length);
+  const box = $("favs-list");
+  if (!list.length) {
+    box.replaceChildren(el("p", { className: "favs-empty", textContent: "Tap the ★ on any item to save it here." }));
+    return;
+  }
+  box.replaceChildren(...list.map((i) => {
+    const row = el("div", { className: "fav-row", tabIndex: 0 });
+    row.setAttribute("role", "button");
+    row.append(
+      el("div", { className: "th" }, i.image ? el("img", { src: i.image, alt: "", loading: "lazy" }) : el("div")),
+      el("div", { className: "tx" }, el("div", { className: "nm", textContent: i.name }), el("div", { className: "pr", textContent: priceText(i) })),
+      favButton(i)
+    );
+    row.addEventListener("click", () => openItem(i));
+    row.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openItem(i); } });
+    return row;
+  }));
+}
+favsTab.addEventListener("click", () => setFavsOpen(!favsEl.classList.contains("open")));
+$("favs-close").addEventListener("click", () => { setFavsOpen(false); favsTab.focus(); });
+document.addEventListener("keydown", (e) => { if (e.key === "Escape" && favsEl.classList.contains("open") && !$("dlg").open) { setFavsOpen(false); favsTab.focus(); } });
+
 function tile(i){
-  const b = el("button", { className: "tile", type: "button" });
+  const b = el("div", { className: "tile", tabIndex: 0 });
+  b.setAttribute("role", "button");
   const frame = el("div", { className: "frame" }, i.image ? el("img", { className: "img", src: i.image, alt: "", loading: "lazy" }) : el("div", { className: "ph" }));
+  frame.append(favButton(i));
   b.append(frame);
   b.append(el("div", { className: "name", textContent: i.name }));
   b.append(el("div", { className: "meta" }, el("span", { textContent: priceText(i) }), el("span", { textContent: "★ " + Number(i.favorites).toLocaleString() })));
   b.addEventListener("click", () => openItem(i));
+  b.addEventListener("keydown", (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); openItem(i); } });
   return b;
 }
 
@@ -680,6 +807,7 @@ function load(){
     $("sub").textContent = items.length + " items from " + gCount + " groups" + (groups.length > gCount ? " & profile" : "");
     renderChips();
     render();
+    renderFavs();
     if (data.updated) $("foot").textContent = "Updated " + new Date(data.updated).toLocaleString();
   }).catch(() => {
     if (!loadedOnce) $("sub").textContent = "Could not load items";   // a failed background refresh stays silent
