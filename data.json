@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-06T04:25:44.138Z",
+ "updated": "2026-11-07T04:22:50.359Z",
  "groups": [
   {
    "id": 32663795,
    "type": "Group",
    "name": "8O8 x Crowds",
-   "memberCount": 197,
+   "memberCount": 198,
    "hasVerifiedBadge": false,
    "latest": [
     {
@@ -47,7 +47,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7323,
+     "favorites": 7363,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -157,7 +157,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7323,
+     "favorites": 7363,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -303,7 +303,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7323,
+     "favorites": 7363,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -733,7 +733,7 @@
     {
      "id": 15547430620,
      "name": "Hat",
-     "favorites": 3,
+     "favorites": 4,
      "price": 95,
      "priceStatus": null,
      "description": "🎄Grab your festive Bucket hat and build a snowman!\n\n🛍️Other colours here:\nhttps://www.roblox.com/catalog?Keyword=christmas%20bucket%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
@@ -829,7 +829,7 @@
     {
      "id": 15544321249,
      "name": "Tangled in Christmas Lights (3.0)",
-     "favorites": 199,
+     "favorites": 200,
      "price": 55,
      "priceStatus": null,
      "description": "🎄Shine brighter than a Christmas tree!\n\n🛍️1.0 Version:\nhttps://www.roblox.com/catalog/15544316166/Tangled-in-Christmas-Lights-1-0\n\nJoin the group for more!",
@@ -1167,7 +1167,7 @@
     {
      "id": 15544321249,
      "name": "Tangled in Christmas Lights (3.0)",
-     "favorites": 199,
+     "favorites": 200,
      "price": 55,
      "priceStatus": null,
      "description": "🎄Shine brighter than a Christmas tree!\n\n🛍️1.0 Version:\nhttps://www.roblox.com/catalog/15544316166/Tangled-in-Christmas-Lights-1-0\n\nJoin the group for more!",
@@ -1529,7 +1529,7 @@
     {
      "id": 15544321249,
      "name": "Tangled in Christmas Lights (3.0)",
-     "favorites": 199,
+     "favorites": 200,
      "price": 55,
      "priceStatus": null,
      "description": "🎄Shine brighter than a Christmas tree!\n\n🛍️1.0 Version:\nhttps://www.roblox.com/catalog/15544316166/Tangled-in-Christmas-Lights-1-0\n\nJoin the group for more!",
@@ -1851,6 +1851,18 @@
      "created": "2023-12-07T10:17:56.58Z"
     },
     {
+     "id": 15547430620,
+     "name": "Hat",
+     "favorites": 4,
+     "price": 95,
+     "priceStatus": null,
+     "description": "🎄Grab your festive Bucket hat and build a snowman!\n\n🛍️Other colours here:\nhttps://www.roblox.com/catalog?Keyword=christmas%20bucket%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
+     "creator": "One Stop Shop!",
+     "image": "https://tr.rbxcdn.com/180DAY-ed11834f6f13f310aadae27ccf5c59ba/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2023-12-04T20:57:26.463Z"
+    },
+    {
      "id": 15574119502,
      "name": "Bow",
      "favorites": 4,
@@ -1873,18 +1885,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-9876cb8e11544721fe6266fa8de035f8/420/420/FaceAccessory/Png/noFilter",
      "category": "Face Accessories",
      "created": "2023-12-07T10:16:13.22Z"
-    },
-    {
-     "id": 15547430620,
-     "name": "Hat",
-     "favorites": 3,
-     "price": 95,
-     "priceStatus": null,
-     "description": "🎄Grab your festive Bucket hat and build a snowman!\n\n🛍️Other colours here:\nhttps://www.roblox.com/catalog?Keyword=christmas%20bucket%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
-     "creator": "One Stop Shop!",
-     "image": "https://tr.rbxcdn.com/180DAY-ed11834f6f13f310aadae27ccf5c59ba/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2023-12-04T20:57:26.463Z"
     },
     {
      "id": 15566314780,
@@ -2210,7 +2210,7 @@
     {
      "id": 17009822978,
      "name": "Sword",
-     "favorites": 102,
+     "favorites": 103,
      "price": 140,
      "priceStatus": null,
      "description": "Shing!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&CreatorName=Slept%20On!&CreatorType=Group",
@@ -2356,7 +2356,7 @@
     {
      "id": 17009822978,
      "name": "Sword",
-     "favorites": 102,
+     "favorites": 103,
      "price": 140,
      "priceStatus": null,
      "description": "Shing!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&CreatorName=Slept%20On!&CreatorType=Group",
@@ -2598,7 +2598,7 @@
     {
      "id": 17009822978,
      "name": "Sword",
-     "favorites": 102,
+     "favorites": 103,
      "price": 140,
      "priceStatus": null,
      "description": "Shing!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&CreatorName=Slept%20On!&CreatorType=Group",
@@ -3092,7 +3092,7 @@
      "priceStatus": null,
      "description": "🎅🏻Time to get into the Christmas spirit!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-e5776ccfced1a17b4d6ce9f3bc914cf3/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-effd95b2891751c0b3246828213c23e9/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-11-12T10:37:42.337Z"
     },
@@ -3555,7 +3555,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 900,
+     "favorites": 904,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -3615,7 +3615,7 @@
     {
      "id": 116852216515003,
      "name": "Guitar 🎸",
-     "favorites": 181,
+     "favorites": 183,
      "price": 140,
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4191,7 +4191,7 @@
     {
      "id": 16310686202,
      "name": "Mask 😈",
-     "favorites": 37,
+     "favorites": 38,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4335,7 +4335,7 @@
     {
      "id": 16310663849,
      "name": "Mask 😈",
-     "favorites": 62,
+     "favorites": 63,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4577,7 +4577,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 900,
+     "favorites": 904,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4685,7 +4685,7 @@
     {
      "id": 116852216515003,
      "name": "Guitar 🎸",
-     "favorites": 181,
+     "favorites": 183,
      "price": 140,
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4925,7 +4925,7 @@
     {
      "id": 16310663849,
      "name": "Mask 😈",
-     "favorites": 62,
+     "favorites": 63,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4939,7 +4939,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 900,
+     "favorites": 904,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5083,7 +5083,7 @@
     {
      "id": 116852216515003,
      "name": "Guitar 🎸",
-     "favorites": 181,
+     "favorites": 183,
      "price": 140,
      "priceStatus": null,
      "description": "🎸Decorated for extra swag!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5155,7 +5155,7 @@
     {
      "id": 16310663849,
      "name": "Mask 😈",
-     "favorites": 62,
+     "favorites": 63,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5287,7 +5287,7 @@
     {
      "id": 16310686202,
      "name": "Mask 😈",
-     "favorites": 37,
+     "favorites": 38,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -6504,7 +6504,7 @@
      "priceStatus": null,
      "description": "🎅🏻Time to get into the Christmas spirit!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
      "creator": "UGC Shack",
-     "image": "https://tr.rbxcdn.com/180DAY-e5776ccfced1a17b4d6ce9f3bc914cf3/420/420/Hat/Png/noFilter",
+     "image": "https://tr.rbxcdn.com/180DAY-effd95b2891751c0b3246828213c23e9/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-11-12T10:37:42.337Z"
     },
@@ -6675,7 +6675,7 @@
    "latest": [
     {
      "id": 72882993588690,
-     "name": "Ushanka Blue With Brown Fur",
+     "name": "Ushanka 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6687,7 +6687,7 @@
     },
     {
      "id": 73723188961036,
-     "name": "Ushanka White With Brown Fur",
+     "name": "Ushanka 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6699,7 +6699,7 @@
     },
     {
      "id": 108695438481377,
-     "name": "Ushanka Brown With Brown Fur",
+     "name": "Ushanka 🤎",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6711,7 +6711,7 @@
     },
     {
      "id": 122875034727343,
-     "name": "Ushanka Black With Brown Fur",
+     "name": "Ushanka 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6723,7 +6723,7 @@
     },
     {
      "id": 77924181377987,
-     "name": "Ushanka Blue With Grey Fur",
+     "name": "Ushanka 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6735,7 +6735,7 @@
     },
     {
      "id": 85959269332249,
-     "name": "Ushanka White With Grey Fur",
+     "name": "Ushanka 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6747,7 +6747,7 @@
     },
     {
      "id": 138621269935512,
-     "name": "Ushanka  Brown With Grey Fur",
+     "name": "Ushanka 🤎",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6759,7 +6759,7 @@
     },
     {
      "id": 110436511358318,
-     "name": "Ushanka Black With Grey Fur",
+     "name": "Ushanka 🖤",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6771,7 +6771,7 @@
     },
     {
      "id": 72794012116755,
-     "name": "Phone Orange",
+     "name": "Phone 🧡",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6783,7 +6783,7 @@
     },
     {
      "id": 109537038522289,
-     "name": "Phone Green",
+     "name": "Phone 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6795,7 +6795,7 @@
     },
     {
      "id": 118026721394631,
-     "name": "Phone Red",
+     "name": "Phone ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6807,7 +6807,7 @@
     },
     {
      "id": 133064401675225,
-     "name": "Phone White",
+     "name": "Phone 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6819,7 +6819,7 @@
     },
     {
      "id": 95744176557245,
-     "name": "Phone Black",
+     "name": "Phone 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6831,7 +6831,7 @@
     },
     {
      "id": 77697851392945,
-     "name": "Headphones Retro Blue",
+     "name": "Headphones 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6843,7 +6843,7 @@
     },
     {
      "id": 76381611394478,
-     "name": "Headphones Retro Green",
+     "name": "Headphones 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6855,7 +6855,7 @@
     },
     {
      "id": 123841403467412,
-     "name": "Headphones Retro Red",
+     "name": "Headphones ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6867,7 +6867,7 @@
     },
     {
      "id": 125034341971212,
-     "name": "Headphones Retro White",
+     "name": "Headphones 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6879,7 +6879,7 @@
     },
     {
      "id": 89675356045692,
-     "name": "Headphones Retro Black",
+     "name": "Headphones 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6903,7 +6903,7 @@
     },
     {
      "id": 74386945294719,
-     "name": "Flip Phone Blue",
+     "name": "Flip Phone 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6915,7 +6915,7 @@
     },
     {
      "id": 99060449102388,
-     "name": "Flip Phone Green",
+     "name": "Flip Phone 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6927,7 +6927,7 @@
     },
     {
      "id": 102915806231654,
-     "name": "Flip Phone Red",
+     "name": "Flip Phone ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6939,7 +6939,7 @@
     },
     {
      "id": 78097795512355,
-     "name": "Flip Phone White",
+     "name": "Flip Phone 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -6951,7 +6951,7 @@
     },
     {
      "id": 108516391018789,
-     "name": "Flip Phone Black",
+     "name": "Flip Phone 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -6999,7 +6999,7 @@
     },
     {
      "id": 133322769145541,
-     "name": "Beanie Red With Stars",
+     "name": "Beanie ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7011,7 +7011,7 @@
     },
     {
      "id": 136263095881206,
-     "name": "Beanie Brown With Stars",
+     "name": "Beanie 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7023,7 +7023,7 @@
     },
     {
      "id": 101919106958687,
-     "name": "Beanie White With Stars",
+     "name": "Beanie 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7035,7 +7035,7 @@
     },
     {
      "id": 73206560645328,
-     "name": "Beanie Black With Stars",
+     "name": "Beanie 🖤 ",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7047,7 +7047,7 @@
     },
     {
      "id": 121365881550702,
-     "name": "Beanie Purple Knitted",
+     "name": "Beanie 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7059,7 +7059,7 @@
     },
     {
      "id": 107604325646041,
-     "name": "Beanie Blue Knitted",
+     "name": "Beanie 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7071,7 +7071,7 @@
     },
     {
      "id": 128592065457279,
-     "name": "Beanie Green Knitted",
+     "name": "Beanie 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7095,7 +7095,7 @@
     },
     {
      "id": 79059112833068,
-     "name": "Beanie Red Knitted",
+     "name": "Beanie ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7107,7 +7107,7 @@
     },
     {
      "id": 124148373583514,
-     "name": "Beanie Brown Knitted",
+     "name": "Beanie 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7119,7 +7119,7 @@
     },
     {
      "id": 79396333458067,
-     "name": "Beanie White Knitted",
+     "name": "Beanie 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7131,7 +7131,7 @@
     },
     {
      "id": 80472404069313,
-     "name": "Beanie Black Knitted",
+     "name": "Beanie 🖤",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7395,7 +7395,7 @@
     },
     {
      "id": 114097008929395,
-     "name": "Witch Hat Purple (Glowing)",
+     "name": "Witch 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7407,7 +7407,7 @@
     },
     {
      "id": 116210438827889,
-     "name": "Witch Hat Blue (Glowing)",
+     "name": "Witch 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7419,7 +7419,7 @@
     },
     {
      "id": 139761740161834,
-     "name": "Witch Hat Green (Glowing)",
+     "name": "Witch 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7431,7 +7431,7 @@
     },
     {
      "id": 87713987107684,
-     "name": "Witch Hat Red (Glowing)",
+     "name": "Witch ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7443,7 +7443,7 @@
     },
     {
      "id": 138544139142309,
-     "name": "Witch Hat Brown (Glowing)",
+     "name": "Witch 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7455,7 +7455,7 @@
     },
     {
      "id": 105232897345539,
-     "name": "Witch Hat White (Glowing)",
+     "name": "Witch 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7467,7 +7467,7 @@
     },
     {
      "id": 137884057692236,
-     "name": "Witch Hat Black (Glowing)",
+     "name": "Witch 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7479,7 +7479,7 @@
     },
     {
      "id": 92749857645166,
-     "name": "Hood Black With Stars",
+     "name": "Hood 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7491,7 +7491,7 @@
     },
     {
      "id": 95588489947654,
-     "name": "Hood White With Stars",
+     "name": "Hood 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7503,7 +7503,7 @@
     },
     {
      "id": 127060326621602,
-     "name": "Hood Red With Stars",
+     "name": "Hood ❤️",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7515,7 +7515,7 @@
     },
     {
      "id": 91753662395289,
-     "name": "Hood Green With Stars",
+     "name": "Hood 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7527,7 +7527,7 @@
     },
     {
      "id": 77362536961231,
-     "name": "Hood Blue With Stars",
+     "name": "Hood 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7539,7 +7539,7 @@
     },
     {
      "id": 135603081127632,
-     "name": "Hood Brown With Stars",
+     "name": "Hood 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7551,7 +7551,7 @@
     },
     {
      "id": 127032571192242,
-     "name": "Hood Beige With Stars",
+     "name": "Hood 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7731,7 +7731,7 @@
     },
     {
      "id": 107955338705520,
-     "name": "Hood Purple",
+     "name": "Hood 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7743,7 +7743,7 @@
     },
     {
      "id": 92171695350147,
-     "name": "Hood Blue",
+     "name": "Hood 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7755,7 +7755,7 @@
     },
     {
      "id": 136581516523146,
-     "name": "Hood Green",
+     "name": "Hood 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7767,7 +7767,7 @@
     },
     {
      "id": 73297539026310,
-     "name": "Hood Red",
+     "name": "Hood ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7779,7 +7779,7 @@
     },
     {
      "id": 112714078814048,
-     "name": "Hood Brown",
+     "name": "Hood 🤎",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7791,7 +7791,7 @@
     },
     {
      "id": 71832238220582,
-     "name": "Hood Grey",
+     "name": "Hood 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -7803,7 +7803,7 @@
     },
     {
      "id": 136423505628279,
-     "name": "Hood White",
+     "name": "Hood 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7815,7 +7815,7 @@
     },
     {
      "id": 138207127263980,
-     "name": "Hood Black",
+     "name": "Hood 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -7996,7 +7996,7 @@
     {
      "id": 117215590881441,
      "name": "Black Straightened Girl Hair 🖤 (With Horns)",
-     "favorites": 5,
+     "favorites": 6,
      "price": 65,
      "priceStatus": null,
      "description": "Fit for the most evil!",
@@ -8128,7 +8128,7 @@
     {
      "id": 112836844234308,
      "name": "Skateboard Red Skeleton",
-     "favorites": 1,
+     "favorites": 2,
      "price": 140,
      "priceStatus": null,
      "description": "Skate through the Spooky season!",
@@ -8283,7 +8283,7 @@
     },
     {
      "id": 85067768109239,
-     "name": "Bats White Head Aura",
+     "name": "Bats 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8295,7 +8295,7 @@
     },
     {
      "id": 131103123242349,
-     "name": "Bats Swarm Black",
+     "name": "Bats 🖤",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -8320,7 +8320,7 @@
     {
      "id": 100371437264595,
      "name": "Devil Wings White",
-     "favorites": 8,
+     "favorites": 9,
      "price": 140,
      "priceStatus": null,
      "description": "Fly through the spooky season!",
@@ -8427,7 +8427,7 @@
     },
     {
      "id": 77851764717552,
-     "name": "Devil Horns Black",
+     "name": "Horns 🖤",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -8439,7 +8439,7 @@
     },
     {
      "id": 134383531216354,
-     "name": "Devil Horns White",
+     "name": "Horns 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8451,7 +8451,7 @@
     },
     {
      "id": 138038743372515,
-     "name": "Devil Horns Red",
+     "name": "Horns ❤️",
      "favorites": 11,
      "price": 95,
      "priceStatus": null,
@@ -8463,7 +8463,7 @@
     },
     {
      "id": 93715811092647,
-     "name": "Devil Horns Green",
+     "name": "Horns 💚",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -8475,7 +8475,7 @@
     },
     {
      "id": 106911862152004,
-     "name": "Devil Horns Blue",
+     "name": "Horns 💙",
      "favorites": 9,
      "price": 95,
      "priceStatus": null,
@@ -8487,7 +8487,7 @@
     },
     {
      "id": 73138226762413,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8499,7 +8499,7 @@
     },
     {
      "id": 74145818331810,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8511,7 +8511,7 @@
     },
     {
      "id": 89663995231483,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses ❤️",
      "favorites": 6,
      "price": 95,
      "priceStatus": null,
@@ -8523,7 +8523,7 @@
     },
     {
      "id": 138429471592878,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 🖤",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -8535,7 +8535,7 @@
     },
     {
      "id": 114194055764737,
-     "name": "Glasses Blue Gold Frame",
+     "name": "Glasses 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8547,7 +8547,7 @@
     },
     {
      "id": 80551904363671,
-     "name": "Glasses Purple Gold Frame",
+     "name": "Glasses 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8559,7 +8559,7 @@
     },
     {
      "id": 111884870818574,
-     "name": "Glasses Red Gold Frame",
+     "name": "Glasses ❤️",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8571,7 +8571,7 @@
     },
     {
      "id": 103448453298137,
-     "name": "Glasses Black Gold Frame",
+     "name": "Glasses 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8583,7 +8583,7 @@
     },
     {
      "id": 140274706429248,
-     "name": "Glasses Blue Black Frame",
+     "name": "Glasses 💙",
      "favorites": 2,
      "price": 95,
      "priceStatus": null,
@@ -8595,7 +8595,7 @@
     },
     {
      "id": 131379817690595,
-     "name": "Glasses Purple Black Frame",
+     "name": "Glasses 💜",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8607,7 +8607,7 @@
     },
     {
      "id": 136835304502868,
-     "name": "Glasses Red Black Frame",
+     "name": "Glasses ❤️",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -8619,7 +8619,7 @@
     },
     {
      "id": 93639058052301,
-     "name": "Glasses Black Black Frame",
+     "name": "Glasses 🖤",
      "favorites": 32,
      "price": 95,
      "priceStatus": null,
@@ -8715,7 +8715,7 @@
     },
     {
      "id": 80664056637642,
-     "name": "Karambit Knife Blue ",
+     "name": "Knife 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8727,7 +8727,7 @@
     },
     {
      "id": 118680388484260,
-     "name": "Karambit Knife Purple ",
+     "name": "Knife 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8739,7 +8739,7 @@
     },
     {
      "id": 90144514397691,
-     "name": "Karambit Knife Pink ",
+     "name": "Knife 🩷",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8751,7 +8751,7 @@
     },
     {
      "id": 76706434116259,
-     "name": "Karambit Knife Pink And White",
+     "name": "Knife 🩷",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8763,7 +8763,7 @@
     },
     {
      "id": 70629766500125,
-     "name": "Karambit Knife Black",
+     "name": "Knife 🖤",
      "favorites": 20,
      "price": 95,
      "priceStatus": null,
@@ -8775,7 +8775,7 @@
     },
     {
      "id": 114074489949464,
-     "name": "Karambit Knife White ",
+     "name": "Knife 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8787,7 +8787,7 @@
     },
     {
      "id": 135982180538144,
-     "name": "Karambit Knife Red ",
+     "name": "Knife ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8799,7 +8799,7 @@
     },
     {
      "id": 103492371976059,
-     "name": "Karambit Knife Green ",
+     "name": "Knife 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8811,7 +8811,7 @@
     },
     {
      "id": 74505102046393,
-     "name": "Knife Black Headband",
+     "name": "Knife 🖤",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -8823,7 +8823,7 @@
     },
     {
      "id": 86360870788711,
-     "name": "Knife White Headband",
+     "name": "Knife 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8835,7 +8835,7 @@
     },
     {
      "id": 82361221835011,
-     "name": "Knife Red Headband",
+     "name": "Knife ❤️",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -8847,7 +8847,7 @@
     },
     {
      "id": 88456447282994,
-     "name": "Knife Green Headband",
+     "name": "Knife 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8859,7 +8859,7 @@
     },
     {
      "id": 80588919492222,
-     "name": "Knife Blue Headband",
+     "name": "Knife 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8871,7 +8871,7 @@
     },
     {
      "id": 101976557290807,
-     "name": "Knife Purple Headband",
+     "name": "Knife 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8883,7 +8883,7 @@
     },
     {
      "id": 122366741544144,
-     "name": "Knife Pink Headband",
+     "name": "Pink 🩷",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -8895,7 +8895,7 @@
     },
     {
      "id": 103889205056324,
-     "name": "Bunny Plushie Black",
+     "name": "Bunny",
      "favorites": 6,
      "price": 95,
      "priceStatus": null,
@@ -8907,7 +8907,7 @@
     },
     {
      "id": 114871357642397,
-     "name": "Bunny Plushie White",
+     "name": "Bunny",
      "favorites": 21,
      "price": 95,
      "priceStatus": null,
@@ -8919,7 +8919,7 @@
     },
     {
      "id": 126104130010651,
-     "name": "Bunny Plushie Pink",
+     "name": "Bunny",
      "favorites": 2,
      "price": 95,
      "priceStatus": null,
@@ -8931,7 +8931,7 @@
     },
     {
      "id": 105377497073956,
-     "name": "Bunny Plushie Blue",
+     "name": "Bunny",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8943,7 +8943,7 @@
     },
     {
      "id": 98249930510106,
-     "name": "Bunny Plushie Green",
+     "name": "Bunny",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -8955,7 +8955,7 @@
     },
     {
      "id": 134556175492385,
-     "name": "Bunny Plushie Red",
+     "name": "Bunny",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8967,7 +8967,7 @@
     },
     {
      "id": 117959716161306,
-     "name": "Black Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -8979,7 +8979,7 @@
     },
     {
      "id": 127201135478477,
-     "name": "White Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 2,
      "price": 95,
      "priceStatus": null,
@@ -8991,7 +8991,7 @@
     },
     {
      "id": 133580752889855,
-     "name": "Pink Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -9003,7 +9003,7 @@
     },
     {
      "id": 73322961690951,
-     "name": "Blue Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -9015,7 +9015,7 @@
     },
     {
      "id": 72563943477535,
-     "name": "Green Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -9027,7 +9027,7 @@
     },
     {
      "id": 119027075558405,
-     "name": "Red Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -9039,7 +9039,7 @@
     },
     {
      "id": 118145378430536,
-     "name": "Purple Bat Plushie 🦇",
+     "name": "Bat 🦇",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -9051,7 +9051,7 @@
     },
     {
      "id": 136363418472985,
-     "name": "White Bat Plushie 🦇",
+     "name": "Bat 🦇",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -9135,8 +9135,8 @@
     },
     {
      "id": 131117047023604,
-     "name": "Knife Headband 🔪",
-     "favorites": 1385,
+     "name": "Knife 🔪",
+     "favorites": 1389,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9147,7 +9147,7 @@
     },
     {
      "id": 140541852067444,
-     "name": "Saw Headband 🪚",
+     "name": "Saw 🪚",
      "favorites": 55,
      "price": 95,
      "priceStatus": null,
@@ -9268,7 +9268,7 @@
     {
      "id": 122923006298505,
      "name": "Hair 🧡",
-     "favorites": 4,
+     "favorites": 5,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9400,7 +9400,7 @@
     {
      "id": 133852992238687,
      "name": "Hair 🧡",
-     "favorites": 9,
+     "favorites": 10,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9412,7 +9412,7 @@
     {
      "id": 89191246956909,
      "name": "Hair 🖤",
-     "favorites": 187,
+     "favorites": 190,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9448,7 +9448,7 @@
     {
      "id": 116722147693870,
      "name": "Hair 💛",
-     "favorites": 88,
+     "favorites": 89,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9497,8 +9497,8 @@
    "bestSelling": [
     {
      "id": 131117047023604,
-     "name": "Knife Headband 🔪",
-     "favorites": 1385,
+     "name": "Knife 🔪",
+     "favorites": 1389,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9510,7 +9510,7 @@
     {
      "id": 89191246956909,
      "name": "Hair 🖤",
-     "favorites": 187,
+     "favorites": 190,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9558,7 +9558,7 @@
     {
      "id": 116722147693870,
      "name": "Hair 💛",
-     "favorites": 88,
+     "favorites": 89,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9604,18 +9604,6 @@
      "created": "2025-09-22T20:32:13.817Z"
     },
     {
-     "id": 92803426435697,
-     "name": "Hair 🖤",
-     "favorites": 53,
-     "price": 65,
-     "priceStatus": null,
-     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-33b0c5d727cbd3fd262c8149ae870caf/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2025-09-26T16:13:42.97Z"
-    },
-    {
      "id": 111309142240873,
      "name": "Ghost 👻",
      "favorites": 13,
@@ -9626,6 +9614,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-3352b93293449c457f2f91224dfa9f81/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-10-12T10:11:37.903Z"
+    },
+    {
+     "id": 92803426435697,
+     "name": "Hair 🖤",
+     "favorites": 53,
+     "price": 65,
+     "priceStatus": null,
+     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-33b0c5d727cbd3fd262c8149ae870caf/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2025-09-26T16:13:42.97Z"
     },
     {
      "id": 140050547902461,
@@ -9653,7 +9653,7 @@
     },
     {
      "id": 140541852067444,
-     "name": "Saw Headband 🪚",
+     "name": "Saw 🪚",
      "favorites": 55,
      "price": 95,
      "priceStatus": null,
@@ -9677,7 +9677,7 @@
     },
     {
      "id": 74505102046393,
-     "name": "Knife Black Headband",
+     "name": "Knife 🖤",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -9737,7 +9737,7 @@
     },
     {
      "id": 82361221835011,
-     "name": "Knife Red Headband",
+     "name": "Knife ❤️",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -9750,7 +9750,7 @@
     {
      "id": 133852992238687,
      "name": "Hair 🧡",
-     "favorites": 9,
+     "favorites": 10,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9761,7 +9761,7 @@
     },
     {
      "id": 93639058052301,
-     "name": "Glasses Black Black Frame",
+     "name": "Glasses 🖤",
      "favorites": 32,
      "price": 95,
      "priceStatus": null,
@@ -9773,7 +9773,7 @@
     },
     {
      "id": 131103123242349,
-     "name": "Bats Swarm Black",
+     "name": "Bats 🖤",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -9821,7 +9821,7 @@
     },
     {
      "id": 89663995231483,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses ❤️",
      "favorites": 6,
      "price": 95,
      "priceStatus": null,
@@ -9833,7 +9833,7 @@
     },
     {
      "id": 70629766500125,
-     "name": "Karambit Knife Black",
+     "name": "Knife 🖤",
      "favorites": 20,
      "price": 95,
      "priceStatus": null,
@@ -9845,7 +9845,7 @@
     },
     {
      "id": 138429471592878,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 🖤",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -9859,8 +9859,8 @@
    "favorited": [
     {
      "id": 131117047023604,
-     "name": "Knife Headband 🔪",
-     "favorites": 1385,
+     "name": "Knife 🔪",
+     "favorites": 1389,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9872,7 +9872,7 @@
     {
      "id": 89191246956909,
      "name": "Hair 🖤",
-     "favorites": 187,
+     "favorites": 190,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9896,7 +9896,7 @@
     {
      "id": 116722147693870,
      "name": "Hair 💛",
-     "favorites": 88,
+     "favorites": 89,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9919,7 +9919,7 @@
     },
     {
      "id": 140541852067444,
-     "name": "Saw Headband 🪚",
+     "name": "Saw 🪚",
      "favorites": 55,
      "price": 95,
      "priceStatus": null,
@@ -9979,7 +9979,7 @@
     },
     {
      "id": 93639058052301,
-     "name": "Glasses Black Black Frame",
+     "name": "Glasses 🖤",
      "favorites": 32,
      "price": 95,
      "priceStatus": null,
@@ -10039,7 +10039,7 @@
     },
     {
      "id": 114871357642397,
-     "name": "Bunny Plushie White",
+     "name": "Bunny",
      "favorites": 21,
      "price": 95,
      "priceStatus": null,
@@ -10051,7 +10051,7 @@
     },
     {
      "id": 70629766500125,
-     "name": "Karambit Knife Black",
+     "name": "Knife 🖤",
      "favorites": 20,
      "price": 95,
      "priceStatus": null,
@@ -10123,7 +10123,7 @@
     },
     {
      "id": 77851764717552,
-     "name": "Devil Horns Black",
+     "name": "Horns 🖤",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -10135,7 +10135,7 @@
     },
     {
      "id": 138429471592878,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 🖤",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -10147,7 +10147,7 @@
     },
     {
      "id": 136835304502868,
-     "name": "Glasses Red Black Frame",
+     "name": "Glasses ❤️",
      "favorites": 12,
      "price": 95,
      "priceStatus": null,
@@ -10183,7 +10183,7 @@
     },
     {
      "id": 138038743372515,
-     "name": "Devil Horns Red",
+     "name": "Horns ❤️",
      "favorites": 11,
      "price": 95,
      "priceStatus": null,
@@ -10206,8 +10206,32 @@
      "created": "2025-09-26T16:26:41.017Z"
     },
     {
+     "id": 133852992238687,
+     "name": "Hair 🧡",
+     "favorites": 10,
+     "price": 65,
+     "priceStatus": null,
+     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-9e0b2a7af011aed7c474ad5c35dd2eda/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2025-09-22T20:38:52.757Z"
+    },
+    {
+     "id": 100371437264595,
+     "name": "Devil Wings White",
+     "favorites": 9,
+     "price": 140,
+     "priceStatus": null,
+     "description": "Fly through the spooky season!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-1234d076d110d555e0689a32b63fa56d/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories",
+     "created": "2026-09-30T17:33:03.88Z"
+    },
+    {
      "id": 106911862152004,
-     "name": "Devil Horns Blue",
+     "name": "Horns 💙",
      "favorites": 9,
      "price": 95,
      "priceStatus": null,
@@ -10216,18 +10240,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-6bf795c3a37bf1c8df27aba5c4e7e517/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2026-09-30T17:52:06.983Z"
-    },
-    {
-     "id": 133852992238687,
-     "name": "Hair 🧡",
-     "favorites": 9,
-     "price": 65,
-     "priceStatus": null,
-     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-9e0b2a7af011aed7c474ad5c35dd2eda/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2025-09-22T20:38:52.757Z"
     },
     {
      "id": 74918422598130,
@@ -10240,18 +10252,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-e6aaa70d880a22545159fa28a6dbaaa8/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-09-19T18:54:17.907Z"
-    },
-    {
-     "id": 100371437264595,
-     "name": "Devil Wings White",
-     "favorites": 8,
-     "price": 140,
-     "priceStatus": null,
-     "description": "Fly through the spooky season!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-1234d076d110d555e0689a32b63fa56d/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories",
-     "created": "2026-09-30T17:33:03.88Z"
     },
     {
      "id": 97588604145414,
@@ -10326,6 +10326,18 @@
      "created": "2026-10-05T21:05:10.259Z"
     },
     {
+     "id": 117215590881441,
+     "name": "Black Straightened Girl Hair 🖤 (With Horns)",
+     "favorites": 6,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Fit for the most evil!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-f4c6ae8ca341c124e5b9af3d1dadbc27/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2026-10-05T20:51:27.529Z"
+    },
+    {
      "id": 97238514639459,
      "name": "Demon Hand 🖤",
      "favorites": 6,
@@ -10339,7 +10351,7 @@
     },
     {
      "id": 89663995231483,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses ❤️",
      "favorites": 6,
      "price": 95,
      "priceStatus": null,
@@ -10351,7 +10363,7 @@
     },
     {
      "id": 103889205056324,
-     "name": "Bunny Plushie Black",
+     "name": "Bunny",
      "favorites": 6,
      "price": 95,
      "priceStatus": null,
@@ -10434,20 +10446,8 @@
      "created": "2026-10-05T20:57:20.841Z"
     },
     {
-     "id": 117215590881441,
-     "name": "Black Straightened Girl Hair 🖤 (With Horns)",
-     "favorites": 5,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Fit for the most evil!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-f4c6ae8ca341c124e5b9af3d1dadbc27/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2026-10-05T20:51:27.529Z"
-    },
-    {
      "id": 131103123242349,
-     "name": "Bats Swarm Black",
+     "name": "Bats 🖤",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -10495,7 +10495,7 @@
     },
     {
      "id": 93715811092647,
-     "name": "Devil Horns Green",
+     "name": "Horns 💚",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -10507,7 +10507,7 @@
     },
     {
      "id": 118145378430536,
-     "name": "Purple Bat Plushie 🦇",
+     "name": "Bat 🦇",
      "favorites": 5,
      "price": 95,
      "priceStatus": null,
@@ -10516,6 +10516,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-04400cef9b04d8f5b2e7dabc1661d9a3/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-10-12T10:09:12.323Z"
+    },
+    {
+     "id": 122923006298505,
+     "name": "Hair 🧡",
+     "favorites": 5,
+     "price": 65,
+     "priceStatus": null,
+     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-73d9011a5eae0278f7d0a621a68198c5/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2025-09-26T16:20:09.623Z"
     },
     {
      "id": 118142569181842,
@@ -10564,18 +10576,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-a163c2a5c9868ed4aded43fda30169b7/420/420/HairAccessory/Png/noFilter",
      "category": "Hair",
      "created": "2025-09-26T16:17:09.07Z"
-    },
-    {
-     "id": 122923006298505,
-     "name": "Hair 🧡",
-     "favorites": 4,
-     "price": 65,
-     "priceStatus": null,
-     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-73d9011a5eae0278f7d0a621a68198c5/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2025-09-26T16:20:09.623Z"
     },
     {
      "id": 116608600928005,
@@ -10687,7 +10687,7 @@
     },
     {
      "id": 74505102046393,
-     "name": "Knife Black Headband",
+     "name": "Knife 🖤",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -10699,7 +10699,7 @@
     },
     {
      "id": 82361221835011,
-     "name": "Knife Red Headband",
+     "name": "Knife ❤️",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -10711,7 +10711,7 @@
     },
     {
      "id": 98249930510106,
-     "name": "Bunny Plushie Green",
+     "name": "Bunny",
      "favorites": 3,
      "price": 95,
      "priceStatus": null,
@@ -10806,8 +10806,20 @@
      "created": "2026-10-03T11:49:20.993Z"
     },
     {
+     "id": 112836844234308,
+     "name": "Skateboard Red Skeleton",
+     "favorites": 2,
+     "price": 140,
+     "priceStatus": null,
+     "description": "Skate through the Spooky season!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-b1dfb7639ed34d55b6a53a4c99903642/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories",
+     "created": "2026-10-02T18:56:45.972Z"
+    },
+    {
      "id": 140274706429248,
-     "name": "Glasses Blue Black Frame",
+     "name": "Glasses 💙",
      "favorites": 2,
      "price": 95,
      "priceStatus": null,
@@ -10831,7 +10843,7 @@
     },
     {
      "id": 126104130010651,
-     "name": "Bunny Plushie Pink",
+     "name": "Bunny",
      "favorites": 2,
      "price": 95,
      "priceStatus": null,
@@ -10843,7 +10855,7 @@
     },
     {
      "id": 127201135478477,
-     "name": "White Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 2,
      "price": 95,
      "priceStatus": null,
@@ -10891,7 +10903,7 @@
     },
     {
      "id": 108695438481377,
-     "name": "Ushanka Brown With Brown Fur",
+     "name": "Ushanka 🤎",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10903,7 +10915,7 @@
     },
     {
      "id": 122875034727343,
-     "name": "Ushanka Black With Brown Fur",
+     "name": "Ushanka 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10915,7 +10927,7 @@
     },
     {
      "id": 138621269935512,
-     "name": "Ushanka  Brown With Grey Fur",
+     "name": "Ushanka 🤎",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10927,7 +10939,7 @@
     },
     {
      "id": 95744176557245,
-     "name": "Phone Black",
+     "name": "Phone 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10939,7 +10951,7 @@
     },
     {
      "id": 77697851392945,
-     "name": "Headphones Retro Blue",
+     "name": "Headphones 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10951,7 +10963,7 @@
     },
     {
      "id": 89675356045692,
-     "name": "Headphones Retro Black",
+     "name": "Headphones 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10975,7 +10987,7 @@
     },
     {
      "id": 108516391018789,
-     "name": "Flip Phone Black",
+     "name": "Flip Phone 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -10987,7 +10999,7 @@
     },
     {
      "id": 79396333458067,
-     "name": "Beanie White Knitted",
+     "name": "Beanie 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11035,7 +11047,7 @@
     },
     {
      "id": 116210438827889,
-     "name": "Witch Hat Blue (Glowing)",
+     "name": "Witch 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11047,7 +11059,7 @@
     },
     {
      "id": 137884057692236,
-     "name": "Witch Hat Black (Glowing)",
+     "name": "Witch 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11059,7 +11071,7 @@
     },
     {
      "id": 92749857645166,
-     "name": "Hood Black With Stars",
+     "name": "Hood 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11071,7 +11083,7 @@
     },
     {
      "id": 95588489947654,
-     "name": "Hood White With Stars",
+     "name": "Hood 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11083,7 +11095,7 @@
     },
     {
      "id": 127060326621602,
-     "name": "Hood Red With Stars",
+     "name": "Hood ❤️",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11095,7 +11107,7 @@
     },
     {
      "id": 77362536961231,
-     "name": "Hood Blue With Stars",
+     "name": "Hood 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11107,7 +11119,7 @@
     },
     {
      "id": 112714078814048,
-     "name": "Hood Brown",
+     "name": "Hood 🤎",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11119,7 +11131,7 @@
     },
     {
      "id": 136423505628279,
-     "name": "Hood White",
+     "name": "Hood 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11131,7 +11143,7 @@
     },
     {
      "id": 138207127263980,
-     "name": "Hood Black",
+     "name": "Hood 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11226,18 +11238,6 @@
      "created": "2026-10-02T18:58:01.96Z"
     },
     {
-     "id": 112836844234308,
-     "name": "Skateboard Red Skeleton",
-     "favorites": 1,
-     "price": 140,
-     "priceStatus": null,
-     "description": "Skate through the Spooky season!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-b1dfb7639ed34d55b6a53a4c99903642/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories",
-     "created": "2026-10-02T18:56:45.972Z"
-    },
-    {
      "id": 116600315436794,
      "name": "Skateboard Red Pumpkin",
      "favorites": 1,
@@ -11251,7 +11251,7 @@
     },
     {
      "id": 85067768109239,
-     "name": "Bats White Head Aura",
+     "name": "Bats 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11275,7 +11275,7 @@
     },
     {
      "id": 114194055764737,
-     "name": "Glasses Blue Gold Frame",
+     "name": "Glasses 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11287,7 +11287,7 @@
     },
     {
      "id": 111884870818574,
-     "name": "Glasses Red Gold Frame",
+     "name": "Glasses ❤️",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11299,7 +11299,7 @@
     },
     {
      "id": 103448453298137,
-     "name": "Glasses Black Gold Frame",
+     "name": "Glasses 🖤",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11311,7 +11311,7 @@
     },
     {
      "id": 131379817690595,
-     "name": "Glasses Purple Black Frame",
+     "name": "Glasses 💜",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11347,7 +11347,7 @@
     },
     {
      "id": 114074489949464,
-     "name": "Karambit Knife White ",
+     "name": "Knife 🤍",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11359,7 +11359,7 @@
     },
     {
      "id": 80588919492222,
-     "name": "Knife Blue Headband",
+     "name": "Knife 💙",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11371,7 +11371,7 @@
     },
     {
      "id": 105377497073956,
-     "name": "Bunny Plushie Blue",
+     "name": "Bunny",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11383,7 +11383,7 @@
     },
     {
      "id": 134556175492385,
-     "name": "Bunny Plushie Red",
+     "name": "Bunny",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11395,7 +11395,7 @@
     },
     {
      "id": 117959716161306,
-     "name": "Black Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11407,7 +11407,7 @@
     },
     {
      "id": 72563943477535,
-     "name": "Green Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 1,
      "price": 95,
      "priceStatus": null,
@@ -11419,7 +11419,7 @@
     },
     {
      "id": 72882993588690,
-     "name": "Ushanka Blue With Brown Fur",
+     "name": "Ushanka 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11431,7 +11431,7 @@
     },
     {
      "id": 73723188961036,
-     "name": "Ushanka White With Brown Fur",
+     "name": "Ushanka 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11443,7 +11443,7 @@
     },
     {
      "id": 77924181377987,
-     "name": "Ushanka Blue With Grey Fur",
+     "name": "Ushanka 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11455,7 +11455,7 @@
     },
     {
      "id": 85959269332249,
-     "name": "Ushanka White With Grey Fur",
+     "name": "Ushanka 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11467,7 +11467,7 @@
     },
     {
      "id": 110436511358318,
-     "name": "Ushanka Black With Grey Fur",
+     "name": "Ushanka 🖤",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11479,7 +11479,7 @@
     },
     {
      "id": 72794012116755,
-     "name": "Phone Orange",
+     "name": "Phone 🧡",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11491,7 +11491,7 @@
     },
     {
      "id": 109537038522289,
-     "name": "Phone Green",
+     "name": "Phone 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11503,7 +11503,7 @@
     },
     {
      "id": 118026721394631,
-     "name": "Phone Red",
+     "name": "Phone ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11515,7 +11515,7 @@
     },
     {
      "id": 133064401675225,
-     "name": "Phone White",
+     "name": "Phone 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11527,7 +11527,7 @@
     },
     {
      "id": 76381611394478,
-     "name": "Headphones Retro Green",
+     "name": "Headphones 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11539,7 +11539,7 @@
     },
     {
      "id": 123841403467412,
-     "name": "Headphones Retro Red",
+     "name": "Headphones ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11551,7 +11551,7 @@
     },
     {
      "id": 125034341971212,
-     "name": "Headphones Retro White",
+     "name": "Headphones 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11563,7 +11563,7 @@
     },
     {
      "id": 74386945294719,
-     "name": "Flip Phone Blue",
+     "name": "Flip Phone 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11575,7 +11575,7 @@
     },
     {
      "id": 99060449102388,
-     "name": "Flip Phone Green",
+     "name": "Flip Phone 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11587,7 +11587,7 @@
     },
     {
      "id": 102915806231654,
-     "name": "Flip Phone Red",
+     "name": "Flip Phone ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11599,7 +11599,7 @@
     },
     {
      "id": 78097795512355,
-     "name": "Flip Phone White",
+     "name": "Flip Phone 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11647,7 +11647,7 @@
     },
     {
      "id": 133322769145541,
-     "name": "Beanie Red With Stars",
+     "name": "Beanie ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11659,7 +11659,7 @@
     },
     {
      "id": 136263095881206,
-     "name": "Beanie Brown With Stars",
+     "name": "Beanie 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11671,7 +11671,7 @@
     },
     {
      "id": 101919106958687,
-     "name": "Beanie White With Stars",
+     "name": "Beanie 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11683,7 +11683,7 @@
     },
     {
      "id": 73206560645328,
-     "name": "Beanie Black With Stars",
+     "name": "Beanie 🖤 ",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11695,7 +11695,7 @@
     },
     {
      "id": 121365881550702,
-     "name": "Beanie Purple Knitted",
+     "name": "Beanie 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11707,7 +11707,7 @@
     },
     {
      "id": 107604325646041,
-     "name": "Beanie Blue Knitted",
+     "name": "Beanie 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11719,7 +11719,7 @@
     },
     {
      "id": 128592065457279,
-     "name": "Beanie Green Knitted",
+     "name": "Beanie 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11731,7 +11731,7 @@
     },
     {
      "id": 79059112833068,
-     "name": "Beanie Red Knitted",
+     "name": "Beanie ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11743,7 +11743,7 @@
     },
     {
      "id": 124148373583514,
-     "name": "Beanie Brown Knitted",
+     "name": "Beanie 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11755,7 +11755,7 @@
     },
     {
      "id": 80472404069313,
-     "name": "Beanie Black Knitted",
+     "name": "Beanie 🖤",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11959,7 +11959,7 @@
     },
     {
      "id": 114097008929395,
-     "name": "Witch Hat Purple (Glowing)",
+     "name": "Witch 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11971,7 +11971,7 @@
     },
     {
      "id": 139761740161834,
-     "name": "Witch Hat Green (Glowing)",
+     "name": "Witch 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11983,7 +11983,7 @@
     },
     {
      "id": 87713987107684,
-     "name": "Witch Hat Red (Glowing)",
+     "name": "Witch ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -11995,7 +11995,7 @@
     },
     {
      "id": 138544139142309,
-     "name": "Witch Hat Brown (Glowing)",
+     "name": "Witch 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12007,7 +12007,7 @@
     },
     {
      "id": 105232897345539,
-     "name": "Witch Hat White (Glowing)",
+     "name": "Witch 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12019,7 +12019,7 @@
     },
     {
      "id": 91753662395289,
-     "name": "Hood Green With Stars",
+     "name": "Hood 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12031,7 +12031,7 @@
     },
     {
      "id": 135603081127632,
-     "name": "Hood Brown With Stars",
+     "name": "Hood 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12043,7 +12043,7 @@
     },
     {
      "id": 127032571192242,
-     "name": "Hood Beige With Stars",
+     "name": "Hood 🤎",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12187,7 +12187,7 @@
     },
     {
      "id": 107955338705520,
-     "name": "Hood Purple",
+     "name": "Hood 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12199,7 +12199,7 @@
     },
     {
      "id": 92171695350147,
-     "name": "Hood Blue",
+     "name": "Hood 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12211,7 +12211,7 @@
     },
     {
      "id": 136581516523146,
-     "name": "Hood Green",
+     "name": "Hood 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12223,7 +12223,7 @@
     },
     {
      "id": 73297539026310,
-     "name": "Hood Red",
+     "name": "Hood ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12235,7 +12235,7 @@
     },
     {
      "id": 71832238220582,
-     "name": "Hood Grey",
+     "name": "Hood 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12451,7 +12451,7 @@
     },
     {
      "id": 134383531216354,
-     "name": "Devil Horns White",
+     "name": "Horns 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12463,7 +12463,7 @@
     },
     {
      "id": 73138226762413,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12475,7 +12475,7 @@
     },
     {
      "id": 74145818331810,
-     "name": "Glasses Blue Silver Frame",
+     "name": "Glasses 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12487,7 +12487,7 @@
     },
     {
      "id": 80551904363671,
-     "name": "Glasses Purple Gold Frame",
+     "name": "Glasses 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12511,7 +12511,7 @@
     },
     {
      "id": 80664056637642,
-     "name": "Karambit Knife Blue ",
+     "name": "Knife 💙",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12523,7 +12523,7 @@
     },
     {
      "id": 118680388484260,
-     "name": "Karambit Knife Purple ",
+     "name": "Knife 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12535,7 +12535,7 @@
     },
     {
      "id": 90144514397691,
-     "name": "Karambit Knife Pink ",
+     "name": "Knife 🩷",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12547,7 +12547,7 @@
     },
     {
      "id": 76706434116259,
-     "name": "Karambit Knife Pink And White",
+     "name": "Knife 🩷",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12559,7 +12559,7 @@
     },
     {
      "id": 135982180538144,
-     "name": "Karambit Knife Red ",
+     "name": "Knife ❤️",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12571,7 +12571,7 @@
     },
     {
      "id": 103492371976059,
-     "name": "Karambit Knife Green ",
+     "name": "Knife 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12583,7 +12583,7 @@
     },
     {
      "id": 86360870788711,
-     "name": "Knife White Headband",
+     "name": "Knife 🤍",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12595,7 +12595,7 @@
     },
     {
      "id": 88456447282994,
-     "name": "Knife Green Headband",
+     "name": "Knife 💚",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12607,7 +12607,7 @@
     },
     {
      "id": 101976557290807,
-     "name": "Knife Purple Headband",
+     "name": "Knife 💜",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12619,7 +12619,7 @@
     },
     {
      "id": 122366741544144,
-     "name": "Knife Pink Headband",
+     "name": "Pink 🩷",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12631,7 +12631,7 @@
     },
     {
      "id": 133580752889855,
-     "name": "Pink Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12643,7 +12643,7 @@
     },
     {
      "id": 73322961690951,
-     "name": "Blue Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12655,7 +12655,7 @@
     },
     {
      "id": 119027075558405,
-     "name": "Red Pastel Bunny Ears 🐰",
+     "name": "Bunny Ears🐰",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12667,7 +12667,7 @@
     },
     {
      "id": 136363418472985,
-     "name": "White Bat Plushie 🦇",
+     "name": "Bat 🦇",
      "favorites": 0,
      "price": 95,
      "priceStatus": null,
@@ -12941,7 +12941,7 @@
     {
      "id": 88199050158666,
      "name": "Sword",
-     "favorites": 813,
+     "favorites": 814,
      "price": 140,
      "priceStatus": null,
      "description": "Crafted From The Finest Molten Steel\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -13037,7 +13037,7 @@
     {
      "id": 102829293785689,
      "name": "Hat",
-     "favorites": 10,
+     "favorites": 11,
      "price": 95,
      "priceStatus": null,
      "description": "🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -13601,7 +13601,7 @@
     {
      "id": 17696324674,
      "name": "🥩 Purse (1.0)",
-     "favorites": 104,
+     "favorites": 105,
      "price": 55,
      "priceStatus": null,
      "description": "Yes its a steak purse.\n\n🥩Pair with Steak Back pack by Kwarm:\nhttps://www.roblox.com/catalog/17600036231/Cutesy-Food-Meat-Prop-Backpack-1-0\n\n🥩3.0 Version:\nhttps://www.roblox.com/catalog/17696333552/Purse-3-0",
@@ -13697,7 +13697,7 @@
     {
      "id": 17160776735,
      "name": "Duck",
-     "favorites": 789,
+     "favorites": 790,
      "price": 140,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -13721,7 +13721,7 @@
     {
      "id": 17151464401,
      "name": "Duck",
-     "favorites": 7816,
+     "favorites": 7820,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\nHis Evil Brother:\nhttps://www.roblox.com/catalog/119258899293884/Duck\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -13733,7 +13733,7 @@
     {
      "id": 17151432379,
      "name": "Duck",
-     "favorites": 711,
+     "favorites": 712,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -14393,7 +14393,7 @@
     {
      "id": 16554391955,
      "name": "Red",
-     "favorites": 178,
+     "favorites": 179,
      "price": 95,
      "priceStatus": null,
      "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -14597,7 +14597,7 @@
     {
      "id": 16554581829,
      "name": "Bow",
-     "favorites": 62,
+     "favorites": 63,
      "price": 95,
      "priceStatus": null,
      "description": "Stylish bat bow!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -15353,7 +15353,7 @@
     {
      "id": 15982641527,
      "name": "Mask ",
-     "favorites": 64,
+     "favorites": 65,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -15833,7 +15833,7 @@
     {
      "id": 15481897117,
      "name": "Money",
-     "favorites": 5113,
+     "favorites": 5115,
      "price": 55,
      "priceStatus": null,
      "description": "I wonder how many Robux i could buy with this....hmmm\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -16193,7 +16193,7 @@
     {
      "id": 15291671775,
      "name": "Mask",
-     "favorites": 12,
+     "favorites": 13,
      "price": 95,
      "priceStatus": null,
      "description": "Masked up for a perfect get away!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -17189,7 +17189,7 @@
     {
      "id": 14486087401,
      "name": "Pumpkin 🎃",
-     "favorites": 337,
+     "favorites": 338,
      "price": 90,
      "priceStatus": null,
      "description": "I cant see!!!!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -17213,7 +17213,7 @@
     {
      "id": 14486188919,
      "name": "Devil Horns",
-     "favorites": 3929,
+     "favorites": 3932,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nTail: \nhttps://www.roblox.com/catalog/14486178596/Devil-Tail\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -17573,7 +17573,7 @@
     {
      "id": 14225658631,
      "name": "Choker (1.0)",
-     "favorites": 451,
+     "favorites": 453,
      "price": 55,
      "priceStatus": null,
      "description": "Spikey \n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -17729,7 +17729,7 @@
     {
      "id": 14000308086,
      "name": "Guitar",
-     "favorites": 5316,
+     "favorites": 5315,
      "price": 140,
      "priceStatus": null,
      "description": "JAM OUT ALL DAY AND NIGHT!!!\n\nBlack Version:\nhttps://www.roblox.com/catalog/13975422919/Guitar\nWhite Version:\nhttps://www.roblox.com/catalog/13975422919/Guitar\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&Creatorname=8o8mph",
@@ -17885,7 +17885,7 @@
     {
      "id": 13884020459,
      "name": "Glasses",
-     "favorites": 1081,
+     "favorites": 1080,
      "price": 95,
      "priceStatus": null,
      "description": "I can see the moon with these!\n\nSilver Version:\nhttps://www.roblox.com/catalog/13884044908/Glasses\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18017,7 +18017,7 @@
     {
      "id": 13823571604,
      "name": "Sword",
-     "favorites": 605,
+     "favorites": 606,
      "price": 140,
      "priceStatus": null,
      "description": "Made with the greatest steel!\n\nBuy more here!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1\n\nPlay my game to try it on!!!!\nhttps://www.roblox.com/games/13898390191/WIP-8O8-UGC-Store",
@@ -18079,7 +18079,7 @@
     {
      "id": 15481897117,
      "name": "Money",
-     "favorites": 5113,
+     "favorites": 5115,
      "price": 55,
      "priceStatus": null,
      "description": "I wonder how many Robux i could buy with this....hmmm\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18091,7 +18091,7 @@
     {
      "id": 17151464401,
      "name": "Duck",
-     "favorites": 7816,
+     "favorites": 7820,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\nHis Evil Brother:\nhttps://www.roblox.com/catalog/119258899293884/Duck\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18103,7 +18103,7 @@
     {
      "id": 14486188919,
      "name": "Devil Horns",
-     "favorites": 3929,
+     "favorites": 3932,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nTail: \nhttps://www.roblox.com/catalog/14486178596/Devil-Tail\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18115,7 +18115,7 @@
     {
      "id": 13884020459,
      "name": "Glasses",
-     "favorites": 1081,
+     "favorites": 1080,
      "price": 95,
      "priceStatus": null,
      "description": "I can see the moon with these!\n\nSilver Version:\nhttps://www.roblox.com/catalog/13884044908/Glasses\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18139,7 +18139,7 @@
     {
      "id": 14000308086,
      "name": "Guitar",
-     "favorites": 5316,
+     "favorites": 5315,
      "price": 140,
      "priceStatus": null,
      "description": "JAM OUT ALL DAY AND NIGHT!!!\n\nBlack Version:\nhttps://www.roblox.com/catalog/13975422919/Guitar\nWhite Version:\nhttps://www.roblox.com/catalog/13975422919/Guitar\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&Creatorname=8o8mph",
@@ -18163,7 +18163,7 @@
     {
      "id": 14225658631,
      "name": "Choker (1.0)",
-     "favorites": 451,
+     "favorites": 453,
      "price": 55,
      "priceStatus": null,
      "description": "Spikey \n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18175,7 +18175,7 @@
     {
      "id": 17160776735,
      "name": "Duck",
-     "favorites": 789,
+     "favorites": 790,
      "price": 140,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -18223,7 +18223,7 @@
     {
      "id": 88199050158666,
      "name": "Sword",
-     "favorites": 813,
+     "favorites": 814,
      "price": 140,
      "priceStatus": null,
      "description": "Crafted From The Finest Molten Steel\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18295,7 +18295,7 @@
     {
      "id": 17151432379,
      "name": "Duck",
-     "favorites": 711,
+     "favorites": 712,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18379,7 +18379,7 @@
     {
      "id": 16554391955,
      "name": "Red",
-     "favorites": 178,
+     "favorites": 179,
      "price": 95,
      "priceStatus": null,
      "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -18415,7 +18415,7 @@
     {
      "id": 13823571604,
      "name": "Sword",
-     "favorites": 605,
+     "favorites": 606,
      "price": 140,
      "priceStatus": null,
      "description": "Made with the greatest steel!\n\nBuy more here!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1\n\nPlay my game to try it on!!!!\nhttps://www.roblox.com/games/13898390191/WIP-8O8-UGC-Store",
@@ -18441,7 +18441,7 @@
     {
      "id": 17151464401,
      "name": "Duck",
-     "favorites": 7816,
+     "favorites": 7820,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\nHis Evil Brother:\nhttps://www.roblox.com/catalog/119258899293884/Duck\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18453,7 +18453,7 @@
     {
      "id": 14000308086,
      "name": "Guitar",
-     "favorites": 5316,
+     "favorites": 5315,
      "price": 140,
      "priceStatus": null,
      "description": "JAM OUT ALL DAY AND NIGHT!!!\n\nBlack Version:\nhttps://www.roblox.com/catalog/13975422919/Guitar\nWhite Version:\nhttps://www.roblox.com/catalog/13975422919/Guitar\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&Creatorname=8o8mph",
@@ -18465,7 +18465,7 @@
     {
      "id": 15481897117,
      "name": "Money",
-     "favorites": 5113,
+     "favorites": 5115,
      "price": 55,
      "priceStatus": null,
      "description": "I wonder how many Robux i could buy with this....hmmm\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18477,7 +18477,7 @@
     {
      "id": 14486188919,
      "name": "Devil Horns",
-     "favorites": 3929,
+     "favorites": 3932,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nTail: \nhttps://www.roblox.com/catalog/14486178596/Devil-Tail\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18537,7 +18537,7 @@
     {
      "id": 13884020459,
      "name": "Glasses",
-     "favorites": 1081,
+     "favorites": 1080,
      "price": 95,
      "priceStatus": null,
      "description": "I can see the moon with these!\n\nSilver Version:\nhttps://www.roblox.com/catalog/13884044908/Glasses\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18561,7 +18561,7 @@
     {
      "id": 88199050158666,
      "name": "Sword",
-     "favorites": 813,
+     "favorites": 814,
      "price": 140,
      "priceStatus": null,
      "description": "Crafted From The Finest Molten Steel\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18573,7 +18573,7 @@
     {
      "id": 17160776735,
      "name": "Duck",
-     "favorites": 789,
+     "favorites": 790,
      "price": 140,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -18597,7 +18597,7 @@
     {
      "id": 17151432379,
      "name": "Duck",
-     "favorites": 711,
+     "favorites": 712,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18633,7 +18633,7 @@
     {
      "id": 13823571604,
      "name": "Sword",
-     "favorites": 605,
+     "favorites": 606,
      "price": 140,
      "priceStatus": null,
      "description": "Made with the greatest steel!\n\nBuy more here!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1\n\nPlay my game to try it on!!!!\nhttps://www.roblox.com/games/13898390191/WIP-8O8-UGC-Store",
@@ -18693,7 +18693,7 @@
     {
      "id": 14225658631,
      "name": "Choker (1.0)",
-     "favorites": 451,
+     "favorites": 453,
      "price": 55,
      "priceStatus": null,
      "description": "Spikey \n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18813,7 +18813,7 @@
     {
      "id": 14486087401,
      "name": "Pumpkin 🎃",
-     "favorites": 337,
+     "favorites": 338,
      "price": 90,
      "priceStatus": null,
      "description": "I cant see!!!!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -19123,6 +19123,18 @@
      "created": "2023-08-18T21:10:56.663Z"
     },
     {
+     "id": 16554391955,
+     "name": "Red",
+     "favorites": 179,
+     "price": 95,
+     "priceStatus": null,
+     "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
+     "creator": "8O8Mph",
+     "image": "https://tr.rbxcdn.com/180DAY-3a01ec9b77291dc3f19c5839768d6e32/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2024-02-28T09:53:25.33Z"
+    },
+    {
      "id": 15982650605,
      "name": "Mask",
      "favorites": 179,
@@ -19145,18 +19157,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-c65d00ea1766c5ec8269469a7c395773/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-08-05T09:04:57.673Z"
-    },
-    {
-     "id": 16554391955,
-     "name": "Red",
-     "favorites": 178,
-     "price": 95,
-     "priceStatus": null,
-     "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
-     "creator": "8O8Mph",
-     "image": "https://tr.rbxcdn.com/180DAY-3a01ec9b77291dc3f19c5839768d6e32/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2024-02-28T09:53:25.33Z"
     },
     {
      "id": 14565888862,
@@ -19591,6 +19591,18 @@
      "created": "2023-10-28T09:58:29.963Z"
     },
     {
+     "id": 17696324674,
+     "name": "🥩 Purse (1.0)",
+     "favorites": 105,
+     "price": 55,
+     "priceStatus": null,
+     "description": "Yes its a steak purse.\n\n🥩Pair with Steak Back pack by Kwarm:\nhttps://www.roblox.com/catalog/17600036231/Cutesy-Food-Meat-Prop-Backpack-1-0\n\n🥩3.0 Version:\nhttps://www.roblox.com/catalog/17696333552/Purse-3-0",
+     "creator": "8O8Mph",
+     "image": "https://tr.rbxcdn.com/180DAY-c6cdfa9894a0d4022eae7c4439a84b24/420/420/FrontAccessory/Png/noFilter",
+     "category": "Front Accessories",
+     "created": "2024-06-01T16:46:17.43Z"
+    },
+    {
      "id": 15032452385,
      "name": "Wings",
      "favorites": 105,
@@ -19601,18 +19613,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-8b04d2d40e70612a70c40c50e9a39823/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories",
      "created": "2023-10-11T09:45:20.543Z"
-    },
-    {
-     "id": 17696324674,
-     "name": "🥩 Purse (1.0)",
-     "favorites": 104,
-     "price": 55,
-     "priceStatus": null,
-     "description": "Yes its a steak purse.\n\n🥩Pair with Steak Back pack by Kwarm:\nhttps://www.roblox.com/catalog/17600036231/Cutesy-Food-Meat-Prop-Backpack-1-0\n\n🥩3.0 Version:\nhttps://www.roblox.com/catalog/17696333552/Purse-3-0",
-     "creator": "8O8Mph",
-     "image": "https://tr.rbxcdn.com/180DAY-c6cdfa9894a0d4022eae7c4439a84b24/420/420/FrontAccessory/Png/noFilter",
-     "category": "Front Accessories",
-     "created": "2024-06-01T16:46:17.43Z"
     },
     {
      "id": 98950401528750,
@@ -20035,6 +20035,18 @@
      "created": "2023-07-31T20:49:35.203Z"
     },
     {
+     "id": 15982641527,
+     "name": "Mask ",
+     "favorites": 65,
+     "price": 95,
+     "priceStatus": null,
+     "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
+     "creator": "8O8Mph",
+     "image": "https://tr.rbxcdn.com/180DAY-2d9fcc7356678e34376982b0b1dddae1/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2024-01-14T14:45:11.32Z"
+    },
+    {
      "id": 15462460047,
      "name": "Celebration Goggles",
      "favorites": 65,
@@ -20059,18 +20071,6 @@
      "created": "2024-04-22T09:19:29.073Z"
     },
     {
-     "id": 15982641527,
-     "name": "Mask ",
-     "favorites": 64,
-     "price": 95,
-     "priceStatus": null,
-     "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
-     "creator": "8O8Mph",
-     "image": "https://tr.rbxcdn.com/180DAY-2d9fcc7356678e34376982b0b1dddae1/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2024-01-14T14:45:11.32Z"
-    },
-    {
      "id": 15023951379,
      "name": "Wings",
      "favorites": 64,
@@ -20083,6 +20083,18 @@
      "created": "2023-10-10T09:52:37.047Z"
     },
     {
+     "id": 16554581829,
+     "name": "Bow",
+     "favorites": 63,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Stylish bat bow!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
+     "creator": "8O8Mph",
+     "image": "https://tr.rbxcdn.com/180DAY-7289bf626c8122b30c930a90bd9cacc0/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2024-02-28T10:25:28.463Z"
+    },
+    {
      "id": 15965679290,
      "name": "Him >",
      "favorites": 63,
@@ -20093,18 +20105,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-e1b5191951e48c10f463bd72605be88e/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2024-01-13T10:51:31.307Z"
-    },
-    {
-     "id": 16554581829,
-     "name": "Bow",
-     "favorites": 62,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Stylish bat bow!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
-     "creator": "8O8Mph",
-     "image": "https://tr.rbxcdn.com/180DAY-7289bf626c8122b30c930a90bd9cacc0/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2024-02-28T10:25:28.463Z"
     },
     {
      "id": 16303410209,
@@ -22099,6 +22099,18 @@
      "created": "2023-12-17T20:12:39.017Z"
     },
     {
+     "id": 15291671775,
+     "name": "Mask",
+     "favorites": 13,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Masked up for a perfect get away!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
+     "creator": "8O8Mph",
+     "image": "https://tr.rbxcdn.com/180DAY-e7da0bcd7a8450180aa795da43b4e110/420/420/FaceAccessory/Png/noFilter",
+     "category": "Face Accessories",
+     "created": "2023-11-07T12:07:58.803Z"
+    },
+    {
      "id": 114094020241877,
      "name": "SnakeBite Peircing",
      "favorites": 12,
@@ -22219,18 +22231,6 @@
      "created": "2023-12-01T09:12:56.673Z"
     },
     {
-     "id": 15291671775,
-     "name": "Mask",
-     "favorites": 12,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Masked up for a perfect get away!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
-     "creator": "8O8Mph",
-     "image": "https://tr.rbxcdn.com/180DAY-e7da0bcd7a8450180aa795da43b4e110/420/420/FaceAccessory/Png/noFilter",
-     "category": "Face Accessories",
-     "created": "2023-11-07T12:07:58.803Z"
-    },
-    {
      "id": 15173348837,
      "name": "Choker (1.0)",
      "favorites": 12,
@@ -22253,6 +22253,18 @@
      "image": "https://t2.rbxcdn.com/180DAY-a53354b1f60a5dedc00d0600d1491075",
      "category": "Other Accessories",
      "created": null
+    },
+    {
+     "id": 102829293785689,
+     "name": "Hat",
+     "favorites": 11,
+     "price": 95,
+     "priceStatus": null,
+     "description": "🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
+     "creator": "8O8Mph",
+     "image": "https://tr.rbxcdn.com/180DAY-ef66b0a5564be16bd6c3415ae7f3db6c/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2025-07-01T10:54:16.297Z"
     },
     {
      "id": 16554460721,
@@ -22349,18 +22361,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-ca6023a00f37d58d04fe991d9056c92f/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-07-22T20:44:54.673Z"
-    },
-    {
-     "id": 102829293785689,
-     "name": "Hat",
-     "favorites": 10,
-     "price": 95,
-     "priceStatus": null,
-     "description": "🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
-     "creator": "8O8Mph",
-     "image": "https://tr.rbxcdn.com/180DAY-ef66b0a5564be16bd6c3415ae7f3db6c/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2025-07-01T10:54:16.297Z"
     },
     {
      "id": 18818755627,
@@ -23833,35 +23833,35 @@
   {
    "id": 5948929,
    "name": "kwarm",
-   "memberCount": 973292,
+   "memberCount": 973344,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-ee5928899b4e9c25822757759eec039e/150/150/Image/Png/noFilter"
   },
   {
    "id": 7498332,
    "name": "Round 2 NYC",
-   "memberCount": 438188,
+   "memberCount": 438180,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-802c67da49c945b82b69ea48a8e46413/150/150/Image/Png/noFilter"
   },
   {
    "id": 17192115,
    "name": "yosemitе",
-   "memberCount": 9442,
+   "memberCount": 9440,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-87249609dae614261c1058785f217b72/150/150/UnapprovedImage/Png/noFilter"
   },
   {
    "id": 11636314,
    "name": "Astra's Army",
-   "memberCount": 632376,
+   "memberCount": 632573,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-ef57596e8373177cdf112b39e300910c/150/150/Image/Png/noFilter"
   },
   {
    "id": 8108593,
    "name": "’kuma",
-   "memberCount": 28650,
+   "memberCount": 28655,
    "hasVerifiedBadge": false,
    "icon": "https://tr.rbxcdn.com/180DAY-0cf158df21f54657f1e123a1a708c858/150/150/Image/Png/noFilter"
   }
@@ -23881,7 +23881,7 @@
    "displayName": "iRhy",
    "hasVerifiedBadge": false,
    "role": "Partner",
-   "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-44FE33155DBE35BC669D297EE90AED19-Png/420/420/AvatarHeadshot/Png/noFilter"
+   "avatar": "https://tr.rbxcdn.com/30DAY-AvatarHeadshot-F83522D4F6F8FAAB0A0A2E97B0ED7E15-Png/420/420/AvatarHeadshot/Png/noFilter"
   },
   {
    "id": 3543750788,
