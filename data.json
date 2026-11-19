@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T04:30:41.602Z",
+ "updated": "2026-11-19T04:31:30.902Z",
  "groups": [
   {
    "id": 32663795,
@@ -47,7 +47,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7526,
+     "favorites": 7527,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -157,7 +157,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7526,
+     "favorites": 7527,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -303,7 +303,7 @@
     {
      "id": 14760357601,
      "name": "Pumpkin",
-     "favorites": 7526,
+     "favorites": 7527,
      "price": 90,
      "priceStatus": null,
      "description": "Goofy Roblox Face Pumpkin <:\n(Model By @DrCrowded)\n(Uploaded By @8O8Mph)",
@@ -709,7 +709,7 @@
     {
      "id": 15606376757,
      "name": "Bow",
-     "favorites": 244,
+     "favorites": 245,
      "price": 95,
      "priceStatus": null,
      "description": "💎Fashion icon!\n\n🛍️More styles here:\nhttps://www.roblox.com/catalog?Keyword=bow&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
@@ -1155,7 +1155,7 @@
     {
      "id": 15606376757,
      "name": "Bow",
-     "favorites": 244,
+     "favorites": 245,
      "price": 95,
      "priceStatus": null,
      "description": "💎Fashion icon!\n\n🛍️More styles here:\nhttps://www.roblox.com/catalog?Keyword=bow&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
@@ -1333,18 +1333,6 @@
      "created": "2023-12-11T09:04:58.433Z"
     },
     {
-     "id": 15544293962,
-     "name": "Santa Hat",
-     "favorites": 12,
-     "price": 95,
-     "priceStatus": null,
-     "description": "🎄Get into the holiday spirit and grab your warm santa hat!\n\n🚨Other colours avalible here:\nhttps://www.roblox.com/catalog?Keyword=santa%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
-     "creator": "One Stop Shop!",
-     "image": "https://tr.rbxcdn.com/180DAY-9b94d85e33d806ab2a3cf12d897291cd/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2023-12-04T12:56:08.787Z"
-    },
-    {
      "id": 15559907190,
      "name": "Mask",
      "favorites": 33,
@@ -1355,6 +1343,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-1b279abf7a52ccc13124e97e3506637d/420/420/FaceAccessory/Png/noFilter",
      "category": "Face Accessories",
      "created": "2023-12-06T14:09:08.797Z"
+    },
+    {
+     "id": 15544293962,
+     "name": "Santa Hat",
+     "favorites": 12,
+     "price": 95,
+     "priceStatus": null,
+     "description": "🎄Get into the holiday spirit and grab your warm santa hat!\n\n🚨Other colours avalible here:\nhttps://www.roblox.com/catalog?Keyword=santa%20hat&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
+     "creator": "One Stop Shop!",
+     "image": "https://tr.rbxcdn.com/180DAY-9b94d85e33d806ab2a3cf12d897291cd/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2023-12-04T12:56:08.787Z"
     },
     {
      "id": 15574133796,
@@ -1393,18 +1393,6 @@
      "created": "2023-12-04T12:54:31.863Z"
     },
     {
-     "id": 15560950918,
-     "name": "Mask",
-     "favorites": 16,
-     "price": 95,
-     "priceStatus": null,
-     "description": "Sleep peacefully and comfortably with your Reindeer eye mask!\n\n🛍️Covering eyes:\nhttps://www.roblox.com/catalog/15559907190/Reindeer-Eye-Mask-Covering-Eyes\n\nJoin the group for more!",
-     "creator": "One Stop Shop!",
-     "image": "https://tr.rbxcdn.com/180DAY-7955b5eb193b9e5578b471839ee65d83/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2023-12-06T16:41:20.527Z"
-    },
-    {
      "id": 15559869726,
      "name": "Elf Hat",
      "favorites": 1,
@@ -1415,6 +1403,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-3cc98f963a531469a2acf89623c181b0/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2023-12-06T14:03:36.9Z"
+    },
+    {
+     "id": 15560950918,
+     "name": "Mask",
+     "favorites": 16,
+     "price": 95,
+     "priceStatus": null,
+     "description": "Sleep peacefully and comfortably with your Reindeer eye mask!\n\n🛍️Covering eyes:\nhttps://www.roblox.com/catalog/15559907190/Reindeer-Eye-Mask-Covering-Eyes\n\nJoin the group for more!",
+     "creator": "One Stop Shop!",
+     "image": "https://tr.rbxcdn.com/180DAY-7955b5eb193b9e5578b471839ee65d83/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2023-12-06T16:41:20.527Z"
     },
     {
      "id": 15566331686,
@@ -1517,7 +1517,7 @@
     {
      "id": 15606376757,
      "name": "Bow",
-     "favorites": 244,
+     "favorites": 245,
      "price": 95,
      "priceStatus": null,
      "description": "💎Fashion icon!\n\n🛍️More styles here:\nhttps://www.roblox.com/catalog?Keyword=bow&Category=1&CreatorName=One%20Stop%20Shop!&CreatorType=Group&salesTypeFilter=1\n\nJoin the group for more!",
@@ -2841,7 +2841,7 @@
    "id": 16114977,
    "type": "Group",
    "name": "UGC Shack",
-   "memberCount": 7991,
+   "memberCount": 7990,
    "hasVerifiedBadge": false,
    "latest": [
     {
@@ -3303,7 +3303,7 @@
     {
      "id": 128511153754209,
      "name": "Pizza 🍕",
-     "favorites": 25,
+     "favorites": 26,
      "price": 55,
      "priceStatus": null,
      "description": "🍕 Pair with Pizza:\nhttps://www.roblox.com/catalog/111741897911952/Pizza\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -3555,7 +3555,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 921,
+     "favorites": 922,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -3663,7 +3663,7 @@
     {
      "id": 73677337110466,
      "name": "Blue Shark Plushie 🦈",
-     "favorites": 71,
+     "favorites": 72,
      "price": 95,
      "priceStatus": null,
      "description": "This shark doesnt bite!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4383,7 +4383,7 @@
     {
      "id": 16308942062,
      "name": "Necklace (1.0) 🖤",
-     "favorites": 68,
+     "favorites": 67,
      "price": 55,
      "priceStatus": null,
      "description": "🔥3.0 Matching:\nhttps://www.roblox.com/catalog/16308965251/Heart-Necklace-3-0\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4577,7 +4577,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 921,
+     "favorites": 922,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4793,7 +4793,7 @@
     {
      "id": 16308942062,
      "name": "Necklace (1.0) 🖤",
-     "favorites": 68,
+     "favorites": 67,
      "price": 55,
      "priceStatus": null,
      "description": "🔥3.0 Matching:\nhttps://www.roblox.com/catalog/16308965251/Heart-Necklace-3-0\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4817,7 +4817,7 @@
     {
      "id": 73677337110466,
      "name": "Blue Shark Plushie 🦈",
-     "favorites": 71,
+     "favorites": 72,
      "price": 95,
      "priceStatus": null,
      "description": "This shark doesnt bite!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4841,7 +4841,7 @@
     {
      "id": 128511153754209,
      "name": "Pizza 🍕",
-     "favorites": 25,
+     "favorites": 26,
      "price": 55,
      "priceStatus": null,
      "description": "🍕 Pair with Pizza:\nhttps://www.roblox.com/catalog/111741897911952/Pizza\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -4939,7 +4939,7 @@
     {
      "id": 107920884284723,
      "name": "Pillow 😴",
-     "favorites": 921,
+     "favorites": 922,
      "price": 65,
      "priceStatus": null,
      "description": "Comfy fluffy pillow! 🛏️\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5131,7 +5131,7 @@
     {
      "id": 73677337110466,
      "name": "Blue Shark Plushie 🦈",
-     "favorites": 71,
+     "favorites": 72,
      "price": 95,
      "priceStatus": null,
      "description": "This shark doesnt bite!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5143,7 +5143,7 @@
     {
      "id": 16308942062,
      "name": "Necklace (1.0) 🖤",
-     "favorites": 68,
+     "favorites": 67,
      "price": 55,
      "priceStatus": null,
      "description": "🔥3.0 Matching:\nhttps://www.roblox.com/catalog/16308965251/Heart-Necklace-3-0\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -5407,7 +5407,7 @@
     {
      "id": 128511153754209,
      "name": "Pizza 🍕",
-     "favorites": 25,
+     "favorites": 26,
      "price": 55,
      "priceStatus": null,
      "description": "🍕 Pair with Pizza:\nhttps://www.roblox.com/catalog/111741897911952/Pizza\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/16114977/UGC-Shack#!/store",
@@ -6670,7 +6670,7 @@
    "id": 564029410,
    "type": "Group",
    "name": "Mx8",
-   "memberCount": 45,
+   "memberCount": 48,
    "hasVerifiedBadge": false,
    "latest": [
     {
@@ -7924,7 +7924,7 @@
     {
      "id": 112883646647801,
      "name": "White Fluffy Boy Hair 🤍",
-     "favorites": 4,
+     "favorites": 5,
      "price": 65,
      "priceStatus": null,
      "description": "Fluffy!",
@@ -8020,7 +8020,7 @@
     {
      "id": 81967441883733,
      "name": "Brown Fluffy Boy Hair 🤎",
-     "favorites": 7,
+     "favorites": 8,
      "price": 65,
      "priceStatus": null,
      "description": "Fluffy!",
@@ -8284,7 +8284,7 @@
     {
      "id": 128734112286569,
      "name": "Skateboard 👻",
-     "favorites": 0,
+     "favorites": 1,
      "price": 140,
      "priceStatus": null,
      "description": "Skate through the Spooky season!",
@@ -9196,7 +9196,7 @@
     {
      "id": 124308268249760,
      "name": "Pumpkin",
-     "favorites": 39,
+     "favorites": 40,
      "price": 90,
      "priceStatus": null,
      "description": "Cover your head in fear!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9232,7 +9232,7 @@
     {
      "id": 131117047023604,
      "name": "Knife 🔪",
-     "favorites": 1467,
+     "favorites": 1473,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9316,7 +9316,7 @@
     {
      "id": 92803426435697,
      "name": "Hair 🖤",
-     "favorites": 54,
+     "favorites": 57,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9460,7 +9460,7 @@
     {
      "id": 135642545138434,
      "name": "Hair 💙",
-     "favorites": 33,
+     "favorites": 34,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9508,7 +9508,7 @@
     {
      "id": 89191246956909,
      "name": "Hair 🖤",
-     "favorites": 203,
+     "favorites": 206,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9520,7 +9520,7 @@
     {
      "id": 111454657524666,
      "name": "Hair 🤎",
-     "favorites": 116,
+     "favorites": 118,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9556,7 +9556,7 @@
     {
      "id": 96103742664298,
      "name": "Duck Yellow Plushie",
-     "favorites": 31,
+     "favorites": 32,
      "price": 95,
      "priceStatus": null,
      "description": "🦆A tiny, cheerful duck that loves perching on your head.\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9594,7 +9594,7 @@
     {
      "id": 131117047023604,
      "name": "Knife 🔪",
-     "favorites": 1467,
+     "favorites": 1473,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9606,7 +9606,7 @@
     {
      "id": 89191246956909,
      "name": "Hair 🖤",
-     "favorites": 203,
+     "favorites": 206,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9618,7 +9618,7 @@
     {
      "id": 111454657524666,
      "name": "Hair 🤎",
-     "favorites": 116,
+     "favorites": 118,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9642,7 +9642,7 @@
     {
      "id": 124308268249760,
      "name": "Pumpkin",
-     "favorites": 39,
+     "favorites": 40,
      "price": 90,
      "priceStatus": null,
      "description": "Cover your head in fear!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9678,7 +9678,7 @@
     {
      "id": 96103742664298,
      "name": "Duck Yellow Plushie",
-     "favorites": 31,
+     "favorites": 32,
      "price": 95,
      "priceStatus": null,
      "description": "🦆A tiny, cheerful duck that loves perching on your head.\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9690,7 +9690,7 @@
     {
      "id": 135642545138434,
      "name": "Hair 💙",
-     "favorites": 33,
+     "favorites": 34,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9702,7 +9702,7 @@
     {
      "id": 92803426435697,
      "name": "Hair 🖤",
-     "favorites": 54,
+     "favorites": 57,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9808,18 +9808,6 @@
      "created": "2026-10-05T20:58:42.795Z"
     },
     {
-     "id": 87007110553083,
-     "name": "Hair 🤎",
-     "favorites": 26,
-     "price": 65,
-     "priceStatus": null,
-     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-d23210563dd3bca407aba3f71e58e965/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2025-09-26T16:15:03.003Z"
-    },
-    {
      "id": 135006434237949,
      "name": "Hair🤍",
      "favorites": 11,
@@ -9830,6 +9818,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-e0a354f21da018ad0f549935db3b28e9/420/420/HairAccessory/Png/noFilter",
      "category": "Hair",
      "created": "2025-09-26T16:26:41.017Z"
+    },
+    {
+     "id": 87007110553083,
+     "name": "Hair 🤎",
+     "favorites": 26,
+     "price": 65,
+     "priceStatus": null,
+     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-d23210563dd3bca407aba3f71e58e965/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2025-09-26T16:15:03.003Z"
     },
     {
      "id": 133852992238687,
@@ -9870,7 +9870,7 @@
     {
      "id": 81967441883733,
      "name": "Brown Fluffy Boy Hair 🤎",
-     "favorites": 7,
+     "favorites": 8,
      "price": 65,
      "priceStatus": null,
      "description": "Fluffy!",
@@ -9956,7 +9956,7 @@
     {
      "id": 131117047023604,
      "name": "Knife 🔪",
-     "favorites": 1467,
+     "favorites": 1473,
      "price": 95,
      "priceStatus": null,
      "description": "Fool your friends!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9968,7 +9968,7 @@
     {
      "id": 89191246956909,
      "name": "Hair 🖤",
-     "favorites": 203,
+     "favorites": 206,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -9980,7 +9980,7 @@
     {
      "id": 111454657524666,
      "name": "Hair 🤎",
-     "favorites": 116,
+     "favorites": 118,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -10014,6 +10014,18 @@
      "created": "2025-09-22T16:09:36.463Z"
     },
     {
+     "id": 92803426435697,
+     "name": "Hair 🖤",
+     "favorites": 57,
+     "price": 65,
+     "priceStatus": null,
+     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-33b0c5d727cbd3fd262c8149ae870caf/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2025-09-26T16:13:42.97Z"
+    },
+    {
      "id": 140541852067444,
      "name": "Saw 🪚",
      "favorites": 56,
@@ -10024,18 +10036,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-2ff3501d82615797960392f254fd0a65/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-10-06T00:07:34.013Z"
-    },
-    {
-     "id": 92803426435697,
-     "name": "Hair 🖤",
-     "favorites": 54,
-     "price": 65,
-     "priceStatus": null,
-     "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-33b0c5d727cbd3fd262c8149ae870caf/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2025-09-26T16:13:42.97Z"
     },
     {
      "id": 100326538288002,
@@ -10050,6 +10050,18 @@
      "created": "2025-10-03T00:35:57.833Z"
     },
     {
+     "id": 124308268249760,
+     "name": "Pumpkin",
+     "favorites": 40,
+     "price": 90,
+     "priceStatus": null,
+     "description": "Cover your head in fear!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-c0274ea80069dec1dbab9a63d3af73cf/420/420/Hat/Png/noFilter",
+     "category": "Hats",
+     "created": "2025-10-12T11:05:38.713Z"
+    },
+    {
      "id": 140050547902461,
      "name": "Cat Grey Pumpkin Plushie",
      "favorites": 40,
@@ -10062,21 +10074,9 @@
      "created": "2025-10-03T00:37:43.94Z"
     },
     {
-     "id": 124308268249760,
-     "name": "Pumpkin",
-     "favorites": 39,
-     "price": 90,
-     "priceStatus": null,
-     "description": "Cover your head in fear!\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-c0274ea80069dec1dbab9a63d3af73cf/420/420/Hat/Png/noFilter",
-     "category": "Hats",
-     "created": "2025-10-12T11:05:38.713Z"
-    },
-    {
      "id": 135642545138434,
      "name": "Hair 💙",
-     "favorites": 33,
+     "favorites": 34,
      "price": 65,
      "priceStatus": null,
      "description": "🪮Styled by @1ovre\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -10100,7 +10100,7 @@
     {
      "id": 96103742664298,
      "name": "Duck Yellow Plushie",
-     "favorites": 31,
+     "favorites": 32,
      "price": 95,
      "priceStatus": null,
      "description": "🦆A tiny, cheerful duck that loves perching on your head.\n\n🛍️Buy more here:\nhttps://www.roblox.com/communities/564029410/Mx8#!/store",
@@ -10362,6 +10362,18 @@
      "created": "2025-09-19T18:54:17.907Z"
     },
     {
+     "id": 81967441883733,
+     "name": "Brown Fluffy Boy Hair 🤎",
+     "favorites": 8,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Fluffy!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-e5f781c93a3b2a6d1ee084d335b759ea/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2026-10-05T21:05:10.259Z"
+    },
+    {
      "id": 115755288075605,
      "name": "Black Fluffy Boy Hair 🖤",
      "favorites": 8,
@@ -10420,18 +10432,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-0bf089a6ca5067e75143147fd77afa0d/420/420/Hat/Png/noFilter",
      "category": "Hats",
      "created": "2025-09-19T18:55:36.017Z"
-    },
-    {
-     "id": 81967441883733,
-     "name": "Brown Fluffy Boy Hair 🤎",
-     "favorites": 7,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Fluffy!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-e5f781c93a3b2a6d1ee084d335b759ea/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2026-10-05T21:05:10.259Z"
     },
     {
      "id": 111300408572257,
@@ -10552,6 +10552,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-9a78d3a3b37f86bf91683ae5a799d8d0/420/420/EmoteAnimation/Png/noFilter",
      "category": "Emotes",
      "created": "2026-10-08T17:21:00.389Z"
+    },
+    {
+     "id": 112883646647801,
+     "name": "White Fluffy Boy Hair 🤍",
+     "favorites": 5,
+     "price": 65,
+     "priceStatus": null,
+     "description": "Fluffy!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
+     "category": "Hair",
+     "created": "2026-10-05T21:21:28.884Z"
     },
     {
      "id": 124791328601957,
@@ -10684,18 +10696,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-d020dd7ffd602093e859ab07371c801c/420/420/EmoteAnimation/Png/noFilter",
      "category": "Emotes",
      "created": "2026-10-08T17:05:20.146Z"
-    },
-    {
-     "id": 112883646647801,
-     "name": "White Fluffy Boy Hair 🤍",
-     "favorites": 4,
-     "price": 65,
-     "priceStatus": null,
-     "description": "Fluffy!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-c55c6d8a97ff3641134a1a03f8bb91fa/420/420/HairAccessory/Png/noFilter",
-     "category": "Hair",
-     "created": "2026-10-05T21:21:28.884Z"
     },
     {
      "id": 132633336253532,
@@ -11368,6 +11368,18 @@
      "image": "https://tr.rbxcdn.com/180DAY-072bc37692cb4a6fcc9ea53513d02b80/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories",
      "created": "2026-10-02T18:58:01.96Z"
+    },
+    {
+     "id": 128734112286569,
+     "name": "Skateboard 👻",
+     "favorites": 1,
+     "price": 140,
+     "priceStatus": null,
+     "description": "Skate through the Spooky season!",
+     "creator": "Mx8",
+     "image": "https://tr.rbxcdn.com/180DAY-3890121d94837093c169d1f61dd42142/420/420/BackAccessory/Png/noFilter",
+     "category": "Back Accessories",
+     "created": "2026-10-02T18:45:21.558Z"
     },
     {
      "id": 116600315436794,
@@ -12604,18 +12616,6 @@
      "image": "https://tr.rbxcdn.com/180DAY-333b4a465d408a545104a5cbdfa37779/420/420/BackAccessory/Png/noFilter",
      "category": "Back Accessories",
      "created": "2026-10-02T18:46:55.718Z"
-    },
-    {
-     "id": 128734112286569,
-     "name": "Skateboard 👻",
-     "favorites": 0,
-     "price": 140,
-     "priceStatus": null,
-     "description": "Skate through the Spooky season!",
-     "creator": "Mx8",
-     "image": "https://tr.rbxcdn.com/180DAY-3890121d94837093c169d1f61dd42142/420/420/BackAccessory/Png/noFilter",
-     "category": "Back Accessories",
-     "created": "2026-10-02T18:45:21.558Z"
     },
     {
      "id": 124360672262344,
@@ -13097,7 +13097,7 @@
     {
      "id": 90143155263723,
      "name": "Knee Bounce",
-     "favorites": 189,
+     "favorites": 190,
      "price": 55,
      "priceStatus": null,
      "description": "Bounce To The Music",
@@ -13277,7 +13277,7 @@
     {
      "id": 135268465969951,
      "name": "Turtle Neck",
-     "favorites": 77,
+     "favorites": 78,
      "price": 55,
      "priceStatus": null,
      "description": "Keep your neck warm!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -13601,7 +13601,7 @@
     {
      "id": 18818779110,
      "name": "White Pearl Necklace (1.0)",
-     "favorites": 146,
+     "favorites": 147,
      "price": 55,
      "priceStatus": null,
      "description": "Shiny\n3.0 version:\nhttps://www.roblox.com/catalog/18818788608/White-Pearl-Necklace-3-0\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -13901,7 +13901,7 @@
     {
      "id": 17157340721,
      "name": "Duck",
-     "favorites": 850,
+     "favorites": 851,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -13913,7 +13913,7 @@
     {
      "id": 17151464401,
      "name": "Duck",
-     "favorites": 7885,
+     "favorites": 7891,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\nHis Evil Brother:\nhttps://www.roblox.com/catalog/119258899293884/Duck\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -14057,7 +14057,7 @@
     {
      "id": 16780498735,
      "name": "Battery Pack",
-     "favorites": 242,
+     "favorites": 243,
      "price": 140,
      "priceStatus": null,
      "description": "Charged up and ready to rumble!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -14585,7 +14585,7 @@
     {
      "id": 16554391955,
      "name": "Red",
-     "favorites": 181,
+     "favorites": 182,
      "price": 95,
      "priceStatus": null,
      "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -15353,7 +15353,7 @@
     {
      "id": 15982632068,
      "name": "Mask ",
-     "favorites": 241,
+     "favorites": 242,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -15881,7 +15881,7 @@
     {
      "id": 15662991045,
      "name": "Axe",
-     "favorites": 84,
+     "favorites": 85,
      "price": 140,
      "priceStatus": null,
      "description": "Weilded by only the strongest of warrior's!",
@@ -16025,7 +16025,7 @@
     {
      "id": 15481897117,
      "name": "Money",
-     "favorites": 5123,
+     "favorites": 5124,
      "price": 55,
      "priceStatus": null,
      "description": "I wonder how many Robux i could buy with this....hmmm\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -16517,7 +16517,7 @@
     {
      "id": 15192204649,
      "name": "Hat",
-     "favorites": 112,
+     "favorites": 113,
      "price": 95,
      "priceStatus": null,
      "description": "My mom said im amazing \n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1",
@@ -16853,7 +16853,7 @@
     {
      "id": 15023943254,
      "name": "Wings",
-     "favorites": 389,
+     "favorites": 390,
      "price": 140,
      "priceStatus": null,
      "description": "Fly high!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -17357,7 +17357,7 @@
     {
      "id": 14486194113,
      "name": "Devil Horns",
-     "favorites": 701,
+     "favorites": 702,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -17405,7 +17405,7 @@
     {
      "id": 14486188919,
      "name": "Devil Horns",
-     "favorites": 3965,
+     "favorites": 3968,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nTail: \nhttps://www.roblox.com/catalog/14486178596/Devil-Tail\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -17861,7 +17861,7 @@
     {
      "id": 14098916825,
      "name": "Chainsaw",
-     "favorites": 191,
+     "favorites": 192,
      "price": 140,
      "priceStatus": null,
      "description": "BRRRRRRR!\n \nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -18149,7 +18149,7 @@
     {
      "id": 13883988942,
      "name": "Hair",
-     "favorites": 425,
+     "favorites": 426,
      "price": 65,
      "priceStatus": null,
      "description": "Dont touch my hair its spikey!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1",
@@ -18271,7 +18271,7 @@
     {
      "id": 15481897117,
      "name": "Money",
-     "favorites": 5123,
+     "favorites": 5124,
      "price": 55,
      "priceStatus": null,
      "description": "I wonder how many Robux i could buy with this....hmmm\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18283,7 +18283,7 @@
     {
      "id": 17151464401,
      "name": "Duck",
-     "favorites": 7885,
+     "favorites": 7891,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\nHis Evil Brother:\nhttps://www.roblox.com/catalog/119258899293884/Duck\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18295,7 +18295,7 @@
     {
      "id": 14486188919,
      "name": "Devil Horns",
-     "favorites": 3965,
+     "favorites": 3968,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nTail: \nhttps://www.roblox.com/catalog/14486178596/Devil-Tail\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18343,7 +18343,7 @@
     {
      "id": 14486194113,
      "name": "Devil Horns",
-     "favorites": 701,
+     "favorites": 702,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -18451,7 +18451,7 @@
     {
      "id": 13883988942,
      "name": "Hair",
-     "favorites": 425,
+     "favorites": 426,
      "price": 65,
      "priceStatus": null,
      "description": "Dont touch my hair its spikey!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1",
@@ -18511,7 +18511,7 @@
     {
      "id": 15023943254,
      "name": "Wings",
-     "favorites": 389,
+     "favorites": 390,
      "price": 140,
      "priceStatus": null,
      "description": "Fly high!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18547,7 +18547,7 @@
     {
      "id": 17157340721,
      "name": "Duck",
-     "favorites": 850,
+     "favorites": 851,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -18571,7 +18571,7 @@
     {
      "id": 16554391955,
      "name": "Red",
-     "favorites": 181,
+     "favorites": 182,
      "price": 95,
      "priceStatus": null,
      "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -18583,7 +18583,7 @@
     {
      "id": 135268465969951,
      "name": "Turtle Neck",
-     "favorites": 77,
+     "favorites": 78,
      "price": 55,
      "priceStatus": null,
      "description": "Keep your neck warm!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -18633,7 +18633,7 @@
     {
      "id": 17151464401,
      "name": "Duck",
-     "favorites": 7885,
+     "favorites": 7891,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\nHis Evil Brother:\nhttps://www.roblox.com/catalog/119258899293884/Duck\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18657,7 +18657,7 @@
     {
      "id": 15481897117,
      "name": "Money",
-     "favorites": 5123,
+     "favorites": 5124,
      "price": 55,
      "priceStatus": null,
      "description": "I wonder how many Robux i could buy with this....hmmm\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18669,7 +18669,7 @@
     {
      "id": 14486188919,
      "name": "Devil Horns",
-     "favorites": 3965,
+     "favorites": 3968,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nTail: \nhttps://www.roblox.com/catalog/14486178596/Devil-Tail\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -18741,7 +18741,7 @@
     {
      "id": 17157340721,
      "name": "Duck",
-     "favorites": 850,
+     "favorites": 851,
      "price": 95,
      "priceStatus": null,
      "description": "Cute and cuddly\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -18801,7 +18801,7 @@
     {
      "id": 14486194113,
      "name": "Devil Horns",
-     "favorites": 701,
+     "favorites": 702,
      "price": 95,
      "priceStatus": null,
      "description": "Sharper than a vampires teeth!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -18897,7 +18897,7 @@
     {
      "id": 13883988942,
      "name": "Hair",
-     "favorites": 425,
+     "favorites": 426,
      "price": 65,
      "priceStatus": null,
      "description": "Dont touch my hair its spikey!\n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1",
@@ -18933,7 +18933,7 @@
     {
      "id": 15023943254,
      "name": "Wings",
-     "favorites": 389,
+     "favorites": 390,
      "price": 140,
      "priceStatus": null,
      "description": "Fly high!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!\n🛍️And here:\nhttps://www.roblox.com/communities/16114977/Lxrid#!/store",
@@ -19065,7 +19065,7 @@
     {
      "id": 16780498735,
      "name": "Battery Pack",
-     "favorites": 242,
+     "favorites": 243,
      "price": 140,
      "priceStatus": null,
      "description": "Charged up and ready to rumble!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -19077,7 +19077,7 @@
     {
      "id": 15982632068,
      "name": "Mask ",
-     "favorites": 241,
+     "favorites": 242,
      "price": 95,
      "priceStatus": null,
      "description": "No face no case\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -19269,7 +19269,7 @@
     {
      "id": 14098916825,
      "name": "Chainsaw",
-     "favorites": 191,
+     "favorites": 192,
      "price": 140,
      "priceStatus": null,
      "description": "BRRRRRRR!\n \nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -19281,7 +19281,7 @@
     {
      "id": 90143155263723,
      "name": "Knee Bounce",
-     "favorites": 189,
+     "favorites": 190,
      "price": 55,
      "priceStatus": null,
      "description": "Bounce To The Music",
@@ -19317,7 +19317,7 @@
     {
      "id": 16554391955,
      "name": "Red",
-     "favorites": 181,
+     "favorites": 182,
      "price": 95,
      "priceStatus": null,
      "description": "You look fire!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -19473,7 +19473,7 @@
     {
      "id": 18818779110,
      "name": "White Pearl Necklace (1.0)",
-     "favorites": 146,
+     "favorites": 147,
      "price": 55,
      "priceStatus": null,
      "description": "Shiny\n3.0 version:\nhttps://www.roblox.com/catalog/18818788608/White-Pearl-Necklace-3-0\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph",
@@ -19737,7 +19737,7 @@
     {
      "id": 15192204649,
      "name": "Hat",
-     "favorites": 112,
+     "favorites": 113,
      "price": 95,
      "priceStatus": null,
      "description": "My mom said im amazing \n\nBuy more here!!\nhttps://www.roblox.com/catalog?Category=1&CreatorName=8o8mph&salesTypeFilter=1",
@@ -19965,7 +19965,7 @@
     {
      "id": 15662991045,
      "name": "Axe",
-     "favorites": 84,
+     "favorites": 85,
      "price": 140,
      "priceStatus": null,
      "description": "Weilded by only the strongest of warrior's!",
@@ -20013,7 +20013,7 @@
     {
      "id": 135268465969951,
      "name": "Turtle Neck",
-     "favorites": 77,
+     "favorites": 78,
      "price": 55,
      "priceStatus": null,
      "description": "Keep your neck warm!\n\n🛍️Buy more here:\nhttps://www.roblox.com/catalog?Category=1&Subcategory=40&CreatorName=8o8mph!",
@@ -24025,28 +24025,28 @@
   {
    "id": 5948929,
    "name": "kwarm",
-   "memberCount": 974028,
+   "memberCount": 974103,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-ee5928899b4e9c25822757759eec039e/150/150/Image/Png/noFilter"
   },
   {
    "id": 7498332,
    "name": "Round 2 NYC",
-   "memberCount": 438167,
+   "memberCount": 438161,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-802c67da49c945b82b69ea48a8e46413/150/150/Image/Png/noFilter"
   },
   {
    "id": 17192115,
    "name": "yosemitе",
-   "memberCount": 9442,
+   "memberCount": 9441,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-87249609dae614261c1058785f217b72/150/150/UnapprovedImage/Png/noFilter"
   },
   {
    "id": 11636314,
    "name": "Astra's Army",
-   "memberCount": 634975,
+   "memberCount": 635148,
    "hasVerifiedBadge": true,
    "icon": "https://tr.rbxcdn.com/180DAY-ef57596e8373177cdf112b39e300910c/150/150/Image/Png/noFilter"
   },
